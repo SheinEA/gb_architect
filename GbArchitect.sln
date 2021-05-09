@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "ReversePolishNotation.csproj", "{D10A2702-19C2-4BA0-A71A-EDB6DDBFA512}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "ReversePolishNotation\ReversePolishNotation.csproj", "{D10A2702-19C2-4BA0-A71A-EDB6DDBFA512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotationOop", "ReversePolishNotationOop\ReversePolishNotationOop.csproj", "{B999C797-DF06-4AA2-9723-B56B870BA185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{D10A2702-19C2-4BA0-A71A-EDB6DDBFA512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10A2702-19C2-4BA0-A71A-EDB6DDBFA512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10A2702-19C2-4BA0-A71A-EDB6DDBFA512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B999C797-DF06-4AA2-9723-B56B870BA185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B999C797-DF06-4AA2-9723-B56B870BA185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B999C797-DF06-4AA2-9723-B56B870BA185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B999C797-DF06-4AA2-9723-B56B870BA185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5C4E991E-2EC7-466B-995A-BD9B1E7631DF}
+		SolutionGuid = {EAD76927-5214-4A65-895B-39FA4B9F1ED5}
 	EndGlobalSection
 EndGlobal

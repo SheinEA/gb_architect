@@ -1,1 +1,3 @@
-/ReversePolishNotation/.vs/ReversePolishNotation/v16/*.suo
+*/bin
+*/obj
+*.suo
