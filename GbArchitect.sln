@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotationOop", "ReversePolishNotationOop\ReversePolishNotationOop.csproj", "{B999C797-DF06-4AA2-9723-B56B870BA185}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotationFn", "ReversePolishNotationFn\ReversePolishNotationFn.csproj", "{8965D747-ABD7-43EC-9448-369EA853CA11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B999C797-DF06-4AA2-9723-B56B870BA185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B999C797-DF06-4AA2-9723-B56B870BA185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B999C797-DF06-4AA2-9723-B56B870BA185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8965D747-ABD7-43EC-9448-369EA853CA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8965D747-ABD7-43EC-9448-369EA853CA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8965D747-ABD7-43EC-9448-369EA853CA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8965D747-ABD7-43EC-9448-369EA853CA11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
