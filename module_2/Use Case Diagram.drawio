@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T22:13:54.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OHDEfdXPY8So60UWS5g1" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T22:15:16.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jw9zXiV-fH-hQw6dRchf" version="14.6.6" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-26" value="Переключить камеру" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="239sjALaaFQrel0IKYAk-27" value="Удалить камеру" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
