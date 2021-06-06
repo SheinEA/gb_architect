@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T18:44:50.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LqggBLY1jKxHrq0kXCKo" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T18:47:06.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WLVSu4ZSa5etD8B1Qj0m" version="14.6.6" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="239sjALaaFQrel0IKYAk-20" value="Создать камеру" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="578" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать 3D модель" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-22" value="Сохранить 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -43,20 +43,11 @@
         <mxCell id="239sjALaaFQrel0IKYAk-27" value="Удалить камеру" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="572" y="578" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="239sjALaaFQrel0IKYAk-28" value="Редактировать источник света в сцене" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="239sjALaaFQrel0IKYAk-28" value="Редактировать источник света" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-29" value="&lt;span id=&quot;docs-internal-guid-07935baf-7fff-c7c5-6f66-7052401fd73c&quot;&gt;&lt;span style=&quot;font-size: 10pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(44 , 45 , 48) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Запустить фотореалистичный рендеринг&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242" y="638" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-4" value="Добавить источник света" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="400" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-5" value="Удалить источник света" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="603" y="400" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-6" value="Редактировать свойства источника света" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="400" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lbsJYyYk9HFuzPzp5g4X-1" value="Работать с камерой" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="510" width="140" height="60" as="geometry" />
