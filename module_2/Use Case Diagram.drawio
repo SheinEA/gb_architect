@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T17:58:37.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="vPf1df6Nl0Vg_7L06vJ3" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T18:44:50.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LqggBLY1jKxHrq0kXCKo" version="14.6.6" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,17 +7,23 @@
         <mxCell id="73fXxVTonlHXJbU47xhf-3" value="Загрузить 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="160" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lbsJYyYk9HFuzPzp5g4X-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="73fXxVTonlHXJbU47xhf-4" target="73fXxVTonlHXJbU47xhf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbsJYyYk9HFuzPzp5g4X-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="73fXxVTonlHXJbU47xhf-4" target="239sjALaaFQrel0IKYAk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="73fXxVTonlHXJbU47xhf-4" value="Дизайнер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="450" width="30" height="60" as="geometry" />
+          <mxGeometry x="60" y="330" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-14" value="Просмотреть 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="242" y="240" width="140" height="60" as="geometry" />
+          <mxGeometry x="526" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-20" value="Создать камеру" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="578" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать 3D модель" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="242" y="322" width="140" height="60" as="geometry" />
+          <mxGeometry x="240" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-22" value="Сохранить 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="797" width="140" height="60" as="geometry" />
@@ -40,17 +46,8 @@
         <mxCell id="239sjALaaFQrel0IKYAk-28" value="Редактировать источник света в сцене" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="239sjALaaFQrel0IKYAk-29" value="&lt;span id=&quot;docs-internal-guid-07935baf-7fff-c7c5-6f66-7052401fd73c&quot;&gt;&lt;span style=&quot;font-size: 10pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(44 , 45 , 48) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Запустить фотореалистичный рендер&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="239sjALaaFQrel0IKYAk-29" value="&lt;span id=&quot;docs-internal-guid-07935baf-7fff-c7c5-6f66-7052401fd73c&quot;&gt;&lt;span style=&quot;font-size: 10pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(44 , 45 , 48) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Запустить фотореалистичный рендеринг&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242" y="638" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-1" value="Добавить полигон" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="322" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-2" value="Удалить полигон" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="603" y="322" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_-vxPhsxK2PhKh6058z0-3" value="Редактировать полигон" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="790" y="322" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_-vxPhsxK2PhKh6058z0-4" value="Добавить источник света" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="400" width="140" height="60" as="geometry" />
@@ -63,6 +60,12 @@
         </mxCell>
         <mxCell id="lbsJYyYk9HFuzPzp5g4X-1" value="Работать с камерой" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lbsJYyYk9HFuzPzp5g4X-5" value="include" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="239sjALaaFQrel0IKYAk-21" target="239sjALaaFQrel0IKYAk-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
