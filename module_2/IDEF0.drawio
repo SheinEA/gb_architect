@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T20:43:12.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LQYiwZykHsXOKmnbDCH4" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T20:44:53.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="46RkUDtjY4zv_RwEWkPd" version="14.7.6" type="github">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
             <mxPoint x="440" y="202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W_RGjU2re__AxwctyzRs-7" value="Формат файлов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="380" y="122" width="100" height="20" as="geometry" />
+        <mxCell id="W_RGjU2re__AxwctyzRs-7" value="Формат файлов&lt;br&gt;3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="365" y="117" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W_RGjU2re__AxwctyzRs-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="W_RGjU2re__AxwctyzRs-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
