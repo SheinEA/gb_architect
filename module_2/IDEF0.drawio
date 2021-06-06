@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T20:25:42.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="XgIvlog5CL9mHVTSLg0Q" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T20:28:16.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zcfXtJKi06Vv_XKorxWw" version="14.7.6" type="github">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W_RGjU2re__AxwctyzRs-1" value="Просмотр и редактирование 3D моделей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="240" height="120" as="geometry" />
+          <mxGeometry x="320" y="202" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-2" value="" style="endArrow=classic;html=1;entryX=-0.004;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="W_RGjU2re__AxwctyzRs-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="170" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-3" value="3D модель, сцена" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
