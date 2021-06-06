@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T20:44:53.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="46RkUDtjY4zv_RwEWkPd" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T20:51:18.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="8DZ16LO-nZ0FZtPiFLb6" version="14.7.6" type="github">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,24 @@
         </mxCell>
         <mxCell id="W_RGjU2re__AxwctyzRs-12" value="Файл 3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="220" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-13" value="" style="endArrow=classic;html=1;entryX=-0.004;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="561" y="270" as="sourcePoint" />
+            <mxPoint x="760.04" y="270.174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-14" value="Результат фото-рендеринга" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-15" value="" style="endArrow=classic;html=1;entryX=-0.004;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="561" y="300" as="sourcePoint" />
+            <mxPoint x="760.04" y="300.174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_RGjU2re__AxwctyzRs-16" value="Файл фото-рендеринга" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
