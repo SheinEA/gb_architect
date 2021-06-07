@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T19:58:22.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CFTAQ4025zmLg9WxF-l6" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T20:00:07.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="SymwzvYlGRTcMjjwlUEX" version="14.7.6" type="github" pages="2">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="A0">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,12 +152,12 @@
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-11" value="" style="endArrow=classic;html=1;entryX=-0.004;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="564" as="sourcePoint" />
-            <mxPoint x="789.04" y="564.174" as="targetPoint" />
+            <mxPoint x="605.96" y="690" as="sourcePoint" />
+            <mxPoint x="805" y="690.174" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-12" value="Файл 3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="590" y="544" width="150" height="20" as="geometry" />
+          <mxGeometry x="605.96" y="670" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-13" value="" style="endArrow=classic;html=1;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" source="loLJtrTFthgS7P5RvidJ-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -297,6 +297,12 @@
         </mxCell>
         <mxCell id="loLJtrTFthgS7P5RvidJ-10" value="&lt;span style=&quot;color: rgb(44 , 45 , 48) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px&quot;&gt;A4. Запуск фото- рендеринг&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="579" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loLJtrTFthgS7P5RvidJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+          <mxGeometry x="580" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="loLJtrTFthgS7P5RvidJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+          <mxGeometry x="580" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
