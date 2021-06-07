@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T20:01:27.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="sgieS2c4OjDuFF7I9N7d" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T20:06:18.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="IvxZcz807sroCMINkG-X" version="14.7.6" type="github" pages="2">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="A0">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-8" value="Форматы файла&lt;br&gt;3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="103.5" y="50" width="120" height="30" as="geometry" />
+          <mxGeometry x="109.5" y="46" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-9" value="" style="endArrow=classic;html=1;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="0p7Wr0Xd2iZE0kWDp1wK-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,14 +177,14 @@
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-16" value="Файл фото-рендеринга" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="590" y="604" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-17" value="" style="endArrow=classic;html=1;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="10" as="sourcePoint" />
-            <mxPoint x="660" y="130" as="targetPoint" />
+            <mxPoint x="709" y="11" as="sourcePoint" />
+            <mxPoint x="709" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-18" value="Форматы файла &lt;br&gt;фото-рендеринга" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="590" y="45" width="110" height="30" as="geometry" />
+          <mxGeometry x="635" y="46" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="Fj5h9H-o9WHxKwUpWDW2-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -298,10 +298,10 @@
         <mxCell id="loLJtrTFthgS7P5RvidJ-10" value="&lt;span style=&quot;color: rgb(44 , 45 , 48) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px&quot;&gt;A4. Запуск фото- рендеринг&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="579" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="loLJtrTFthgS7P5RvidJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+        <mxCell id="loLJtrTFthgS7P5RvidJ-12" value="A6. Сохранение 3D модели, сцены" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="635.96" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="loLJtrTFthgS7P5RvidJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+        <mxCell id="loLJtrTFthgS7P5RvidJ-13" value="A5. Сохранение фото-рендеринга" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="611.96" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
