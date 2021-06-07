@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T19:53:41.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="He4Dc-MNOM_7shR7S4lH" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T19:54:42.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="UcyFsCwcLcgW-tPtvEgj" version="14.7.6" type="github" pages="2">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="A0">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-6" value="3D модель, сцена" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="418.04" y="180" width="110" height="20" as="geometry" />
+          <mxGeometry x="394.04" y="180" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="0p7Wr0Xd2iZE0kWDp1wK-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -232,13 +232,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="loLJtrTFthgS7P5RvidJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="loLJtrTFthgS7P5RvidJ-10">
+        <mxCell id="loLJtrTFthgS7P5RvidJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="loLJtrTFthgS7P5RvidJ-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="404" y="201" as="sourcePoint" />
             <mxPoint x="592" y="325" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="201" />
-              <mxPoint x="580" y="325" />
+              <mxPoint x="560" y="201" />
+              <mxPoint x="560" y="298" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -296,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="loLJtrTFthgS7P5RvidJ-10" value="&lt;span style=&quot;color: rgb(44 , 45 , 48) ; font-family: &amp;#34;arial&amp;#34; ; font-size: 13.3333px&quot;&gt;A4. Запуск фото- рендеринг&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="596" y="294" width="120" height="60" as="geometry" />
+          <mxGeometry x="579" y="268" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
