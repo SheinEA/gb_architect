@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T17:38:25.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NjAvJPThXnShmplyf8y_" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:43:22.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dcQmh15MjeP7nxx8FqrK" version="14.7.6" type="github" pages="2">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="Уровень_0">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,14 +123,14 @@
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-4" value="Файл 3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="2.960000000000008" y="135" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-5" value="" style="endArrow=classic;html=1;exitX=1.004;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" source="Fj5h9H-o9WHxKwUpWDW2-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550.96" y="311.15" as="sourcePoint" />
-            <mxPoint x="749" y="311" as="targetPoint" />
+            <mxPoint x="455.00000000000006" y="201.14999999999998" as="sourcePoint" />
+            <mxPoint x="800" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-6" value="3D модель, сцена" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="551" y="290" width="110" height="20" as="geometry" />
+          <mxGeometry x="440.04" y="180" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="0p7Wr0Xd2iZE0kWDp1wK-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -213,11 +213,17 @@
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-24" value="Источник 3D модели сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="110" y="379" width="170" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Fj5h9H-o9WHxKwUpWDW2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" edge="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1" source="0p7Wr0Xd2iZE0kWDp1wK-25" target="Fj5h9H-o9WHxKwUpWDW2-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-25" value="&lt;span&gt;A1. Загрузка 3D модели, сцены&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="153" y="125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fj5h9H-o9WHxKwUpWDW2-0" value="&lt;span&gt;A2.&amp;nbsp;&lt;/span&gt;Просмотр 3D модели, сцены" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
-          <mxGeometry x="300" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fj5h9H-o9WHxKwUpWDW2-4" value="Данные для &lt;br&gt;рендера" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+          <mxGeometry x="276" y="124" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
