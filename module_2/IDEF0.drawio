@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T14:59:47.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YHtzWDazakyLGTnr0_FS" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T17:35:00.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="g8Uvv_6oPkpcp1j-_1sB" version="14.7.6" type="github" pages="2">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="Уровень_0">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-24" value="Источник 3D модели сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="110" y="379" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-25" value="&lt;span&gt;A1. Загрузить 3D модель, сцену&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
+        <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-25" value="&lt;span&gt;A1. Загрузка 3D модели, сцены&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0p7Wr0Xd2iZE0kWDp1wK-1">
           <mxGeometry x="153" y="125" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
