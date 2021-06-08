@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T08:16:57.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="4wjr_MIDTk89B4VM6YQJ" version="14.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-08T08:18:16.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3y3CVjsxffVxOG0hCkKN" version="14.6.6" type="github" pages="3">
   <diagram id="WN6VgEvd2EQ4TZZtk9Fa" name="A0">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -134,16 +134,16 @@
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="0p7Wr0Xd2iZE0kWDp1wK-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="228" y="122" as="sourcePoint" />
+            <mxPoint x="228" y="80" as="sourcePoint" />
             <mxPoint x="253.5" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-8" value="Форматы файла&lt;br&gt;3D модели, сцены" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" vertex="1">
-          <mxGeometry x="149.5" y="153" width="120" height="30" as="geometry" />
+          <mxGeometry x="150.5" y="125" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-9" value="" style="endArrow=classic;html=1;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="0p7Wr0Xd2iZE0kWDp1wK-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="228" y="707" as="sourcePoint" />
+            <mxPoint x="228" y="720" as="sourcePoint" />
             <mxPoint x="218.46" y="597" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -161,12 +161,12 @@
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-17" value="" style="endArrow=classic;html=1;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="866.04" y="111.5" as="sourcePoint" />
-            <mxPoint x="866.04" y="460.5" as="targetPoint" />
+            <mxPoint x="847" y="80" as="sourcePoint" />
+            <mxPoint x="847.04" y="460.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-18" value="Форматы файла &lt;br&gt;фото-рендеринга" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" vertex="1">
-          <mxGeometry x="794.04" y="146.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="775.04" y="119.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0p7Wr0Xd2iZE0kWDp1wK-19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0p7Wr0Xd2iZE0kWDp1wK-1" target="Fj5h9H-o9WHxKwUpWDW2-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
