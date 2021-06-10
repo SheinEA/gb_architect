@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T19:45:54.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="IloW0l68EBdk_xOLwDZ-" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T19:52:41.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="sMDJ2MYDX5OcNYbqV2Wn" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -101,7 +101,10 @@
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-34" value="Запрос&amp;nbsp;&lt;br&gt;на сохранение&lt;br&gt;результата &lt;br&gt;фото-рендеринга" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oDMPhcDwK1nl3bNBo1yr-36" value="Информация для&lt;br&gt;запуска фото-рендеринга" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-17">
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-37" value="Данные полигона, &lt;br&gt;камеры, источника света" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-38" value="Информация для&lt;br&gt;запуска фото-рендеринга" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-33" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
