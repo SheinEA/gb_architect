@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T19:21:12.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Lxz-ObcfK6m8neQjCut8" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T19:27:19.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="NHmojBNj6Rq2rdfv_J-f" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,6 +80,9 @@
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-22" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Сохранить &lt;br&gt;результат&lt;br&gt;фото-&lt;br&gt;рендеринга&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="947" y="568" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-30" value="Результат&amp;nbsp;&lt;br&gt;рендера&lt;br&gt;на мониторе" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-25" target="oDMPhcDwK1nl3bNBo1yr-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-25" value="&lt;span&gt;Просмо-ть &lt;br&gt;3D модель, &lt;br&gt;сцену&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="317" y="328" width="80" height="80" as="geometry" />
