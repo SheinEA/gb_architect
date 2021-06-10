@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T20:30:13.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="PNL0mG3FyhGXp-v9OGeR" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-10T20:41:04.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="JxOGc0MUBPK23MoFyhWx" version="14.7.6" type="github" pages="2">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -126,41 +126,58 @@
       <root>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-0" />
         <mxCell id="RX_fi-6dSIcxsV5ridTL-1" parent="RX_fi-6dSIcxsV5ridTL-0" />
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-15" target="RX_fi-6dSIcxsV5ridTL-19">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-4" value="Измененные данные&amp;nbsp;&lt;br&gt;источника&amp;nbsp;&lt;br&gt;света" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-15" target="RX_fi-6dSIcxsV5ridTL-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-15" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;источник &lt;br&gt;света&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="760" y="335" width="80" height="80" as="geometry" />
+          <mxGeometry x="799" y="335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-12" value="Данные камеры" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-19" target="FR9_TNFJrN0ykaTxuH-p-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="375" />
+              <mxPoint x="450" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-19" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
           <mxGeometry x="540" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-28" target="RX_fi-6dSIcxsV5ridTL-19">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-1" value="Измененные данные &lt;br&gt;полигонной сетки" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-28" target="RX_fi-6dSIcxsV5ridTL-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-28" value="Редак-ть&lt;br&gt;полигонную&lt;br&gt;сетку" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="550" y="210" width="80" height="80" as="geometry" />
+          <mxGeometry x="550" y="191" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="FR9_TNFJrN0ykaTxuH-p-0">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-6" value="Информация &lt;br&gt;о камере" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="FR9_TNFJrN0ykaTxuH-p-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="RX_fi-6dSIcxsV5ridTL-15">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-7" value="Информация&lt;br&gt;о источнике&lt;br&gt;света" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="RX_fi-6dSIcxsV5ridTL-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-35" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="751.5" y="490" width="97" height="40" as="geometry" />
+          <mxGeometry x="790.5" y="490" width="97" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-0" target="RX_fi-6dSIcxsV5ridTL-19">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-3" value="Измененные данные камеры" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-0" target="RX_fi-6dSIcxsV5ridTL-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FR9_TNFJrN0ykaTxuH-p-0" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;камеру&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
           <mxGeometry x="550" y="470" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FR9_TNFJrN0ykaTxuH-p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-5" target="RX_fi-6dSIcxsV5ridTL-28">
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-8" value="Информация&amp;nbsp;&lt;br&gt;по изменению&lt;br&gt;полигона" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-5" target="RX_fi-6dSIcxsV5ridTL-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FR9_TNFJrN0ykaTxuH-p-5" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="340" y="230" width="97" height="40" as="geometry" />
+          <mxGeometry x="340" y="211" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-10" value="Данные &lt;br&gt;полигонной&lt;br&gt;сетки" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-9" target="RX_fi-6dSIcxsV5ridTL-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-11" value="Данные источника&amp;nbsp;&lt;br&gt;света" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="FR9_TNFJrN0ykaTxuH-p-9" target="RX_fi-6dSIcxsV5ridTL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-9" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
+          <mxGeometry x="789.5" y="216" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
