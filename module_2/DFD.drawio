@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T19:31:29.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="kUighHpWW0lZrG2sxO8A" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T19:41:10.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="4kvZ9CsfMmhEUo41bwVf" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -70,16 +70,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-19" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Данные&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;фото-&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;рендеринга&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
-          <mxGeometry x="937" y="455" width="100" height="30" as="geometry" />
+          <mxGeometry x="980" y="455" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-21" value="Файловая&lt;br&gt;система" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="937" y="729" width="100" height="50" as="geometry" />
+          <mxGeometry x="980" y="729" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-23" value="Данные файла" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-22" target="oDMPhcDwK1nl3bNBo1yr-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-22" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Сохранить &lt;br&gt;результат&lt;br&gt;фото-&lt;br&gt;рендеринга&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="947" y="568" width="80" height="80" as="geometry" />
+          <mxGeometry x="990" y="568" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-30" value="Результат&amp;nbsp;&lt;br&gt;рендера&lt;br&gt;на мониторе" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-25" target="oDMPhcDwK1nl3bNBo1yr-2">
           <mxGeometry relative="1" as="geometry" />
@@ -97,6 +97,15 @@
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-31" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="190" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-34" value="Запрос&amp;nbsp;&lt;br&gt;на сохранение&lt;br&gt;результата &lt;br&gt;фото-рендеринга" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-33" target="oDMPhcDwK1nl3bNBo1yr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-33" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="588" width="97" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
