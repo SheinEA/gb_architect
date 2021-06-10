@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T17:35:10.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="1v5LpMWSPhYIIfoOKoq7" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T17:40:42.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="e1Rb8OGCunsTZIatlgUu" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-8" value="Данные модели&amp;nbsp;&lt;br&gt;для редактирования" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nFgDgpKMFWf3unUXLBJT-2" target="oDMPhcDwK1nl3bNBo1yr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nFgDgpKMFWf3unUXLBJT-2" target="oDMPhcDwK1nl3bNBo1yr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nFgDgpKMFWf3unUXLBJT-2" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
           <mxGeometry x="423" y="215" width="100" height="30" as="geometry" />
         </mxCell>
@@ -25,14 +28,17 @@
         <mxCell id="60nflXu5xfEMRwVFv_RP-4" value="Файловая &lt;br&gt;система,&lt;br&gt;сеть" style="html=1;dashed=0;whitespace=wrap;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="60" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oDMPhcDwK1nl3bNBo1yr-1" value="Файловая &lt;br&gt;система" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="80" width="100" height="50" as="geometry" />
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-1" value="Файловая&lt;br&gt;система,&lt;br&gt;сеть" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-2" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="460" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-7" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;3D модель, &lt;br&gt;сцену&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="433" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-10" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Сохранить &lt;br&gt;3D модель, &lt;br&gt;сцену&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
