@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T19:06:11.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="OEaKq-LM2FltQ1SjQqqz" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T19:09:39.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mp3J32gkElGelq7VDrE7" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="728" y="40" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-2" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="729" width="97" height="40" as="geometry" />
+          <mxGeometry x="308.5" y="550" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-15" value="Информация&amp;nbsp;&amp;nbsp;&lt;br&gt;о изменении &lt;br&gt;модели" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDMPhcDwK1nl3bNBo1yr-7" target="oDMPhcDwK1nl3bNBo1yr-14">
           <mxGeometry x="-0.2059" y="-10" relative="1" as="geometry">
