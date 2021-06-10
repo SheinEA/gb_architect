@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T17:04:11.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="06Lg-6LAjBOSBzmYQcYv" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T17:15:59.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wAg4U2gixtKWXTsZToAP" version="14.7.6" type="github">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-3" value="Информация для&lt;br&gt;получения файла" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nFgDgpKMFWf3unUXLBJT-1" target="60nflXu5xfEMRwVFv_RP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nFgDgpKMFWf3unUXLBJT-1" value="&lt;span&gt;Загрузить &lt;br&gt;3D модель, &lt;br&gt;сцену&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" parent="1" vertex="1">
-          <mxGeometry x="270" y="110" width="80" height="80" as="geometry" />
+          <mxGeometry x="230" y="190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nFgDgpKMFWf3unUXLBJT-2" value="" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" parent="1" vertex="1">
-          <mxGeometry x="410" y="320" width="100" height="30" as="geometry" />
+          <mxGeometry x="640" y="290" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nFgDgpKMFWf3unUXLBJT-3" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="450" as="sourcePoint" />
-            <mxPoint x="470" y="400" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="oDMPhcDwK1nl3bNBo1yr-4" value="Данные файла" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="60nflXu5xfEMRwVFv_RP-4" target="nFgDgpKMFWf3unUXLBJT-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="60nflXu5xfEMRwVFv_RP-4" value="Файловая &lt;br&gt;система" style="html=1;dashed=0;whitespace=wrap;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="100" height="50" as="geometry" />
+        <mxCell id="60nflXu5xfEMRwVFv_RP-4" value="Файловая &lt;br&gt;система,&lt;br&gt;сеть" style="html=1;dashed=0;whitespace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-1" value="Файловая &lt;br&gt;система" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="160" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDMPhcDwK1nl3bNBo1yr-2" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="100" height="50" as="geometry" />
+          <mxGeometry x="150" y="390" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
