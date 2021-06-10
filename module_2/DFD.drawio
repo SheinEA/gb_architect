@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T20:20:04.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Mh1eTiDdXU5HglHhM2_A" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-10T20:24:05.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="M-OHvLDXXqIJxJxwdU34" version="14.7.6" type="github" pages="2">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -126,43 +126,20 @@
       <root>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-0" />
         <mxCell id="RX_fi-6dSIcxsV5ridTL-1" parent="RX_fi-6dSIcxsV5ridTL-0" />
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-6" value="Данные модели&amp;nbsp;&lt;br&gt;для редактирования" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-8" target="RX_fi-6dSIcxsV5ridTL-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-8" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="502" y="195" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-14" value="Информация&amp;nbsp;&amp;nbsp;&lt;br&gt;о изменении &lt;br&gt;модели" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-15" target="RX_fi-6dSIcxsV5ridTL-19">
-          <mxGeometry x="-0.2059" y="-10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-15" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;3D модель, &lt;br&gt;сцену&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="513" y="328" width="80" height="80" as="geometry" />
+        <mxCell id="RX_fi-6dSIcxsV5ridTL-15" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;источник &lt;br&gt;света&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
+          <mxGeometry x="700" y="248" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-19" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="729" y="353" width="100" height="30" as="geometry" />
+          <mxGeometry x="540" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-28" value="Редакт-ть&lt;br&gt;полигонную&lt;br&gt;сетку" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
-          <mxGeometry x="317" y="328" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-29" value="Информация&amp;nbsp;&amp;nbsp;&lt;br&gt;о модели для&amp;nbsp;&lt;br&gt;просмотра" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-15" target="RX_fi-6dSIcxsV5ridTL-28">
-          <mxGeometry x="-0.2059" y="-10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RX_fi-6dSIcxsV5ridTL-33" value="Данные полигона, &lt;br&gt;камеры, источника света" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="RX_fi-6dSIcxsV5ridTL-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K_Gi0iYb-VoF4J9ToGPU-0" value="Информация о позиции наблюдателя&amp;nbsp;&lt;br&gt;(камеры)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RX_fi-6dSIcxsV5ridTL-1" source="RX_fi-6dSIcxsV5ridTL-35" target="RX_fi-6dSIcxsV5ridTL-28">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="357" y="600" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="RX_fi-6dSIcxsV5ridTL-28" value="Редак-ть&lt;br&gt;полигонную&lt;br&gt;сетку" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
+          <mxGeometry x="390" y="248" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RX_fi-6dSIcxsV5ridTL-35" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
           <mxGeometry x="502" y="580" width="97" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FR9_TNFJrN0ykaTxuH-p-0" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;камкру&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="RX_fi-6dSIcxsV5ridTL-1">
+          <mxGeometry x="700" y="440" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
