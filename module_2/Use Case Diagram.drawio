@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T20:59:23.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="oR7w6mk7_pHwEUyKIN17" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T21:12:29.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qyHAy6KaSzlq835ZKo1h" version="14.7.7" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="239sjALaaFQrel0IKYAk-14" value="Просмотреть 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="512" y="202" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать полигональную сетку 3D-модели" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="239" y="202" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-22" value="Сохранить в файл 3DS отредактированную 3D-модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
