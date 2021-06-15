@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T20:40:05.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="nv7c9KM5CmL8E6_TyuS-" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T20:53:16.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="rOEF2N4jtPLfc3ejyVoN" version="14.7.7" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="73fXxVTonlHXJbU47xhf-3" value="Загрузить полигональную 3D-модель, сцену из файла 3DS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="81" width="140" height="60" as="geometry" />
+          <mxGeometry x="239" y="81" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lbsJYyYk9HFuzPzp5g4X-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="73fXxVTonlHXJbU47xhf-4" target="73fXxVTonlHXJbU47xhf-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -32,22 +32,22 @@
           <mxGeometry x="50" y="380" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-14" value="Просмотреть 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="202" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="202" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать 3D модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="202" width="140" height="60" as="geometry" />
+          <mxGeometry x="239" y="202" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-22" value="Сохранить в файл 3DS отредактированную 3D-модель, сцену" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="757" width="140" height="60" as="geometry" />
+          <mxGeometry x="239" y="757" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-23" value="Сохранить в файл результат фотореалистичного рендеринга (в формате BMP)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="239" y="672" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-28" value="Редактировать источник света в текущей сцене" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="503" width="140" height="60" as="geometry" />
+          <mxGeometry x="239" y="503" width="181" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="239sjALaaFQrel0IKYAk-29" value="&lt;span id=&quot;docs-internal-guid-07935baf-7fff-c7c5-6f66-7052401fd73c&quot;&gt;&lt;span style=&quot;font-size: 10pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(44 , 45 , 48) ; background-color: transparent ; vertical-align: baseline&quot;&gt;Запустить фотореалистичный рендеринг&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="239" y="592" width="140" height="60" as="geometry" />
+        <mxCell id="239sjALaaFQrel0IKYAk-29" value="&lt;span id=&quot;docs-internal-guid-07935baf-7fff-c7c5-6f66-7052401fd73c&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; color: rgb(44 , 45 , 48) ; background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Запустить фотореалистичный рендеринг (на базе Ray-Tracing)&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="239" y="592" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TU5F-Y49U0o-_bYxD-CY-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="239sjALaaFQrel0IKYAk-21" target="239sjALaaFQrel0IKYAk-14" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -57,12 +57,12 @@
         </mxCell>
         <mxCell id="TU5F-Y49U0o-_bYxD-CY-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TU5F-Y49U0o-_bYxD-CY-3" target="239sjALaaFQrel0IKYAk-14" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="605" y="152" as="sourcePoint" />
-            <mxPoint x="765" y="152" as="targetPoint" />
+            <mxPoint x="637" y="152" as="sourcePoint" />
+            <mxPoint x="797" y="152" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TU5F-Y49U0o-_bYxD-CY-3" value="&lt;br&gt;extension points:&lt;br&gt;перемещать камеру, вращать камеру" style="html=1;shape=mxgraph.sysml.useCaseExtPt;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="470" y="322" width="160" height="80" as="geometry" />
+          <mxGeometry x="502" y="322" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TU5F-Y49U0o-_bYxD-CY-4" value="&lt;span style=&quot;font-weight: 400&quot;&gt;Работать с камерой&lt;/span&gt;" style="resizable=0;html=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontStyle=1;" parent="TU5F-Y49U0o-_bYxD-CY-3" connectable="0" vertex="1">
           <mxGeometry x="80" y="17" as="geometry">
@@ -70,13 +70,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-1" value="Добавить источник света" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="435" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="435" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-2" value="Удалить источник света" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="503" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="503" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-3" value="Редактировать свойства источника света" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="570" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="570" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.993;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="239sjALaaFQrel0IKYAk-28" target="tiU-eMrbcyaUTcWXrpwR-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -97,7 +97,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-7" value="Получить полигональную 3D-модель, сцену по сети" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiU-eMrbcyaUTcWXrpwR-7" target="73fXxVTonlHXJbU47xhf-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-9" value="Загрузить 3D-модель из файла OBJ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="110" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="110" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-10" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiU-eMrbcyaUTcWXrpwR-9" target="73fXxVTonlHXJbU47xhf-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -115,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-11" value="Сохранить 3D-модель в файл OBJ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="757" width="140" height="60" as="geometry" />
+          <mxGeometry x="512" y="757" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiU-eMrbcyaUTcWXrpwR-11" target="239sjALaaFQrel0IKYAk-22">
           <mxGeometry width="160" relative="1" as="geometry">
