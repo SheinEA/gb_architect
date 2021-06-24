@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T21:15:59.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="w0mCkH5qSv9bSaL6FBZT" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-24T21:17:38.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="XA0O1kpjq2fAcIDxhCBy" version="14.7.6" type="github" pages="3">
   <diagram id="AK-iGJzDlFNvxhwOBNrH" name="Main">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -405,7 +405,13 @@
         <mxCell id="Qz2GFadCrYh42VAdkemj-10" value="ISurfaceDrawingAlgoritm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="S1hmuJl9Un3HgT6j6ZNS-1" source="S1hmuJl9Un3HgT6j6ZNS-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="475" as="sourcePoint" />
-            <mxPoint x="60" y="475" as="targetPoint" />
+            <mxPoint x="80" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qz2GFadCrYh42VAdkemj-12" value="ILightingAlgoritm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;exitX=0;exitY=0.75;exitDx=10;exitDy=0;exitPerimeter=0;" edge="1" parent="S1hmuJl9Un3HgT6j6ZNS-1" source="S1hmuJl9Un3HgT6j6ZNS-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="496" as="sourcePoint" />
+            <mxPoint x="80" y="508" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
