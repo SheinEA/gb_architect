@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T21:42:49.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="tTrGShu8dgCdB5XrndiT" version="14.7.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-24T21:48:23.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="VgkeATXS5V-1kH4Fw3O0" version="14.7.6" type="github" pages="3">
   <diagram id="AK-iGJzDlFNvxhwOBNrH" name="Main">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -440,6 +440,27 @@
         </mxCell>
         <mxCell id="PWOlPavxNuRQcm7U67qR-2" value="" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;points=[];aspect=fixed;resizable=0;" vertex="1" parent="S1hmuJl9Un3HgT6j6ZNS-1">
           <mxGeometry x="520" y="290" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="eXypa31FQH42XHkjyyRg-0" value="ISurfaceDrawingAlgoritm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S1hmuJl9Un3HgT6j6ZNS-1" source="S1hmuJl9Un3HgT6j6ZNS-7">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint x="640" y="100" as="sourcePoint" />
+            <mxPoint x="525" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXypa31FQH42XHkjyyRg-1" value="ILightingAlgoritm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S1hmuJl9Un3HgT6j6ZNS-1" source="S1hmuJl9Un3HgT6j6ZNS-7">
+          <mxGeometry x="-0.5556" relative="1" as="geometry">
+            <mxPoint x="515" y="200" as="sourcePoint" />
+            <mxPoint x="500" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXypa31FQH42XHkjyyRg-2" value="IProjectionAlgoritm" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S1hmuJl9Un3HgT6j6ZNS-1" source="S1hmuJl9Un3HgT6j6ZNS-7">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint x="550" y="200" as="sourcePoint" />
+            <mxPoint x="550" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
