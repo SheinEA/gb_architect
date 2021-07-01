@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T06:25:14.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WZCR_aRxLmKdhApzm7zN" version="14.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-01T06:26:16.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="QG3ZzOn7TTv7YK7W8iKY" version="14.8.3" type="github" pages="4">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -314,14 +314,6 @@
         </mxCell>
         <mxCell id="gR5xoXgVWJ5QPTAkph6j-3" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Редак-ть&lt;br&gt;источник &lt;br&gt;света&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="gR5xoXgVWJ5QPTAkph6j-1">
           <mxGeometry x="799" y="335" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gR5xoXgVWJ5QPTAkph6j-4" value="Данные камеры" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gR5xoXgVWJ5QPTAkph6j-1" source="gR5xoXgVWJ5QPTAkph6j-5" target="gR5xoXgVWJ5QPTAkph6j-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="500" y="375" />
-              <mxPoint x="500" y="510" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="gR5xoXgVWJ5QPTAkph6j-5" value="Данные модели,&amp;nbsp;&lt;br&gt;сцены" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="gR5xoXgVWJ5QPTAkph6j-1">
           <mxGeometry x="540" y="360" width="100" height="30" as="geometry" />
