@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T07:44:53.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="c8KAw5bPstQeUgB2Lb4j" version="14.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-02T07:45:27.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="JDZN4n5gouaTBjzgUVNH" version="14.8.3" type="github" pages="4">
   <diagram id="zpo06m7_BMjcQepiqPYK" name="Основная">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="9ftAKnK8kAjeRej-LWqO-9" value="Данные файла" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="9ftAKnK8kAjeRej-LWqO-1" source="9ftAKnK8kAjeRej-LWqO-11" target="9ftAKnK8kAjeRej-LWqO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ftAKnK8kAjeRej-LWqO-11" value="Файловая&lt;br&gt;система,&lt;br&gt;сеть" style="html=1;dashed=0;whitespace=wrap;rounded=1;" parent="9ftAKnK8kAjeRej-LWqO-1" vertex="1">
+        <mxCell id="9ftAKnK8kAjeRej-LWqO-11" value="Файловая&lt;br&gt;система,&lt;br&gt;сеть" style="html=1;dashed=0;whitespace=wrap;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="9ftAKnK8kAjeRej-LWqO-1" vertex="1">
           <mxGeometry x="584" y="79" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ftAKnK8kAjeRej-LWqO-12" value="Запрос &lt;br&gt;на загрузку &lt;br&gt;3D модели, сцены" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="9ftAKnK8kAjeRej-LWqO-1" source="9ftAKnK8kAjeRej-LWqO-36" target="9ftAKnK8kAjeRej-LWqO-5" edge="1">
@@ -253,7 +253,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ftAKnK8kAjeRej-LWqO-36" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;" parent="9ftAKnK8kAjeRej-LWqO-1" vertex="1">
+        <mxCell id="9ftAKnK8kAjeRej-LWqO-36" value="Дизайнер" style="html=1;dashed=0;whitespace=wrap;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="9ftAKnK8kAjeRej-LWqO-1" vertex="1">
           <mxGeometry x="577" y="642" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
