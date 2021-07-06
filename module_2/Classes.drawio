@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T14:42:59.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="rGXos82EZlKtMbgCJLnp" version="14.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-06T14:48:47.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-sDUt0pFLGSPmgx1bNTE" version="14.8.4" type="github" pages="3">
   <diagram id="AK-iGJzDlFNvxhwOBNrH" name="Loading">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
       <root>
         <mxCell id="VBHij3D9K-uFIkbrPq8T-0" />
         <mxCell id="VBHij3D9K-uFIkbrPq8T-1" parent="VBHij3D9K-uFIkbrPq8T-0" />
-        <mxCell id="VBHij3D9K-uFIkbrPq8T-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ILoader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Load(String): IModel&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VBHij3D9K-uFIkbrPq8T-1">
+        <mxCell id="VBHij3D9K-uFIkbrPq8T-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IModelPreserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Save(IModel): IModel&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VBHij3D9K-uFIkbrPq8T-1">
           <mxGeometry x="230" y="40" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VBHij3D9K-uFIkbrPq8T-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;FileLoader&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ FileLoader(IFileParser, IModelBuilder): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Load(String): IModel&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="VBHij3D9K-uFIkbrPq8T-1">
@@ -382,6 +382,15 @@
               <mxPoint x="420" y="320" />
               <mxPoint x="420" y="560" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RvmUGqbo3iWjCR-q6F9O-0" value="«interface»&lt;br&gt;&lt;b&gt;IModel&lt;/b&gt;" style="html=1;" vertex="1" parent="VBHij3D9K-uFIkbrPq8T-1">
+          <mxGeometry x="900" y="55" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ErBhgFep0wEjPAHmTc8l-0" value="" style="endArrow=open;endFill=1;endSize=12;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;" edge="1" parent="VBHij3D9K-uFIkbrPq8T-1" source="VBHij3D9K-uFIkbrPq8T-2" target="RvmUGqbo3iWjCR-q6F9O-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="sourcePoint" />
+            <mxPoint x="1010" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
