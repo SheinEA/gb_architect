@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T17:24:28.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="kOdUYbi2cM-JPoDU8E-1" version="14.8.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-07-08T17:25:39.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="mMKhc61z-7BCGesztL0S" version="14.8.4" type="github" pages="5">
   <diagram id="AK-iGJzDlFNvxhwOBNrH" name="Loading">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -371,7 +371,7 @@
       <root>
         <mxCell id="z_LU8h7pxAhV6IWc8wSi-0" />
         <mxCell id="z_LU8h7pxAhV6IWc8wSi-1" parent="z_LU8h7pxAhV6IWc8wSi-0" />
-        <mxCell id="z_LU8h7pxAhV6IWc8wSi-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPhotoRender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Render(IModel, Camera): PhotoData&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="z_LU8h7pxAhV6IWc8wSi-1">
+        <mxCell id="z_LU8h7pxAhV6IWc8wSi-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PhotoRender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Render(IModel, Camera): PhotoData&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="z_LU8h7pxAhV6IWc8wSi-1">
           <mxGeometry x="440" y="280" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z_LU8h7pxAhV6IWc8wSi-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ScenePhotoRender&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Render(IModel, Camera): PhotoData&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="z_LU8h7pxAhV6IWc8wSi-1">
