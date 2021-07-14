@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T20:27:49.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="XG3d4SPDubntzEEW5pPx" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-14T20:32:04.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="VJ2h6HrcwAvNpd5FSTB6" version="14.8.5" type="github" pages="2">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
           <mxGeometry x="50" y="490" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-14" value="Просмотреть данные справочника" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="480" width="140" height="60" as="geometry" />
+          <mxGeometry x="587" y="480" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-21" value="Редактировать данные справочника" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="174" y="277" width="181" height="60" as="geometry" />
@@ -85,7 +85,7 @@
           <mxGeometry x="447" y="208" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-15" value="Редактировать строки" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="447" y="277" width="140" height="60" as="geometry" />
+          <mxGeometry x="470" y="277" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-16" value="Удалять строки" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="447" y="348" width="140" height="60" as="geometry" />
@@ -112,6 +112,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="530" y="420" as="sourcePoint" />
             <mxPoint x="622" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qiryv4jLSrNzw0m8RsOZ-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiU-eMrbcyaUTcWXrpwR-15" target="239sjALaaFQrel0IKYAk-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="604.4719526396025" y="339.85693891256346" as="sourcePoint" />
+            <mxPoint x="675.5290471884014" y="416.1394652753577" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
