@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T20:40:55.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8sPBD7sPYoxGmpADaK5I" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-14T20:42:35.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JD1EMHcnJc6D-8-XtkA5" version="14.8.5" type="github" pages="2">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,11 +128,11 @@
             <mxPoint x="675.5290471884014" y="416.1394652753577" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F7JAFic4piHahB9865ey-1" value="&lt;br&gt;extension points:&lt;br&gt;фильтровать данные, сортировать данные" style="html=1;shape=mxgraph.sysml.useCaseExtPt;whiteSpace=wrap;align=center;" vertex="1" parent="1">
-          <mxGeometry x="577" y="590" width="160" height="80" as="geometry" />
+        <mxCell id="F7JAFic4piHahB9865ey-1" value="&lt;br&gt;&lt;br&gt;extension points:&lt;br&gt;фильтровать данные, сортировать данные,&lt;br&gt;выводить на печать" style="html=1;shape=mxgraph.sysml.useCaseExtPt;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="577" y="590" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="F7JAFic4piHahB9865ey-2" value="&lt;span style=&quot;font-weight: 400&quot;&gt;Работать с данными&lt;/span&gt;" style="resizable=0;html=1;verticalAlign=middle;align=center;labelBackgroundColor=none;fontStyle=1;" connectable="0" vertex="1" parent="F7JAFic4piHahB9865ey-1">
-          <mxGeometry x="80" y="17" as="geometry">
+          <mxGeometry x="80" y="23.374999999999996" as="geometry">
             <mxPoint x="2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
