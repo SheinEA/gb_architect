@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T21:05:21.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="lA5Dp_eIcHoadtKlju7e" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-14T21:05:38.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Z94ZflnCFtLPp5QHLWMh" version="14.8.5" type="github" pages="2">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
         <mxCell id="QkYgONmGkyxHSKUiv4nv-13" value="Сотрудник" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="370" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QkYgONmGkyxHSKUiv4nv-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QkYgONmGkyxHSKUiv4nv-14" target="239sjALaaFQrel0IKYAk-14">
+        <mxCell id="QkYgONmGkyxHSKUiv4nv-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QkYgONmGkyxHSKUiv4nv-14" target="239sjALaaFQrel0IKYAk-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QkYgONmGkyxHSKUiv4nv-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QkYgONmGkyxHSKUiv4nv-14" target="239sjALaaFQrel0IKYAk-22">
