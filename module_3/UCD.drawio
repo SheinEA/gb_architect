@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T05:45:29.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="LiX-gdLmK40NI-0i0pzM" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T06:06:31.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="2fDkBcrBgS8lSU54BSha" version="14.8.6" type="github">
   <diagram id="TTeWuGK_N1w3ZF10THAs" name="Use case">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,18 +43,18 @@
           <mxGeometry x="559.5" y="428" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="239sjALaaFQrel0IKYAk-28" value="Выполнять настройку справочников" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="638" width="181" height="60" as="geometry" />
+          <mxGeometry x="240" y="640" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-1" value="Удалять справочники" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="598" width="140" height="60" as="geometry" />
+          <mxGeometry x="350" y="550" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-2" value="Редактировать справочники" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="663" width="140" height="60" as="geometry" />
+          <mxGeometry x="530" y="570" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tiU-eMrbcyaUTcWXrpwR-3" value="Добавлять справочники" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="723" width="140" height="60" as="geometry" />
+          <mxGeometry x="503" y="660" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tiU-eMrbcyaUTcWXrpwR-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.993;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="239sjALaaFQrel0IKYAk-28" target="tiU-eMrbcyaUTcWXrpwR-1" edge="1">
+        <mxCell id="tiU-eMrbcyaUTcWXrpwR-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.993;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="239sjALaaFQrel0IKYAk-28" target="tiU-eMrbcyaUTcWXrpwR-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="321" y="644.5" as="sourcePoint" />
             <mxPoint x="421" y="645" as="targetPoint" />
@@ -122,9 +122,9 @@
             <mxPoint x="2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkYgONmGkyxHSKUiv4nv-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.855;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="F7JAFic4piHahB9865ey-1" target="239sjALaaFQrel0IKYAk-14" edge="1">
+        <mxCell id="QkYgONmGkyxHSKUiv4nv-1" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="239sjALaaFQrel0IKYAk-14" target="F7JAFic4piHahB9865ey-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="627" y="362" as="sourcePoint" />
+            <mxPoint x="670" y="350" as="sourcePoint" />
             <mxPoint x="627" y="263" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -135,7 +135,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QkYgONmGkyxHSKUiv4nv-8" value="Просматривать список справочников" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="557" y="508" width="140" height="60" as="geometry" />
+          <mxGeometry x="370" y="440" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QkYgONmGkyxHSKUiv4nv-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="73fXxVTonlHXJbU47xhf-4" target="QkYgONmGkyxHSKUiv4nv-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -149,7 +149,7 @@
             <mxPoint x="809.99811258045" y="639.0737748391001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkYgONmGkyxHSKUiv4nv-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tiU-eMrbcyaUTcWXrpwR-2" target="QkYgONmGkyxHSKUiv4nv-8" edge="1">
+        <mxCell id="QkYgONmGkyxHSKUiv4nv-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.557;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tiU-eMrbcyaUTcWXrpwR-2" target="QkYgONmGkyxHSKUiv4nv-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="576.215413134573" y="628.148031712195" as="sourcePoint" />
             <mxPoint x="660" y="575" as="targetPoint" />
