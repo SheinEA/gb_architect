@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T20:23:09.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="K8fGCdaLkCTKgi3iiv4y" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T20:32:17.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="RelVMZGBTX_SLN6O787I" version="14.8.5" type="github">
   <diagram id="PjhJfFPII2j8Qp2e5kSj" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -59,16 +59,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rFuoUrlW_HbGro7aGN49-38" value="DataType" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="720" y="310" width="100" height="50" as="geometry" />
+          <mxGeometry x="720" y="220" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rFuoUrlW_HbGro7aGN49-39" value="Id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="660" y="210" width="100" height="40" as="geometry" />
+          <mxGeometry x="660" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rFuoUrlW_HbGro7aGN49-40" value="Name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="780" y="210" width="100" height="40" as="geometry" />
+          <mxGeometry x="780" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rFuoUrlW_HbGro7aGN49-43" value="DataTypeId" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="880" y="445" width="100" height="40" as="geometry" />
+          <mxGeometry x="880" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rFuoUrlW_HbGro7aGN49-45" value="Is of" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rFuoUrlW_HbGro7aGN49-46" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;startArrow=ERone;startFill=0;endFill=1;" edge="1" parent="1" source="rFuoUrlW_HbGro7aGN49-38" target="rFuoUrlW_HbGro7aGN49-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="320" as="sourcePoint" />
+            <mxPoint x="940" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rFuoUrlW_HbGro7aGN49-47" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;startArrow=ERone;startFill=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rFuoUrlW_HbGro7aGN49-45" target="rFuoUrlW_HbGro7aGN49-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="280" as="sourcePoint" />
+            <mxPoint x="770" y="330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
