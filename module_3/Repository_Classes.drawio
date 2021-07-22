@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T18:13:34.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="HLFsD5U0imnYIAqH_exk" version="14.9.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-22T18:18:31.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Bnr4wFyJ1Vjm2l3dm03Y" version="14.9.0" type="github" pages="2">
   <diagram id="AK-iGJzDlFNvxhwOBNrH" name="Repository">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -123,21 +123,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s4SNmzAOuQfs6TTlEryH" name="Page-2">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="svSCijLYjMoTOdasfPkZ-0" />
         <mxCell id="svSCijLYjMoTOdasfPkZ-1" parent="svSCijLYjMoTOdasfPkZ-0" />
         <mxCell id="svSCijLYjMoTOdasfPkZ-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDataProviderService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
-          <mxGeometry x="310" y="250" width="190" height="140" as="geometry" />
+          <mxGeometry x="-130" y="-70" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="svSCijLYjMoTOdasfPkZ-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IAttributeService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Add(Attribute): void&lt;br&gt;+ Delete(int): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Update(Attribute): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Get(id): Attribute&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Get(): List&amp;lt;Attribute&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
           <mxGeometry x="640" y="180" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="svSCijLYjMoTOdasfPkZ-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Attribute&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Id: int&lt;br&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Description: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
-          <mxGeometry x="400" y="40" width="190" height="90" as="geometry" />
+          <mxGeometry x="60" y="-230" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="svSCijLYjMoTOdasfPkZ-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DataProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Id: int&lt;br&gt;+ Name: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ DataSourceAttributes: List&amp;lt;Attribute&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ FieldAttributes: List&amp;lt;Attribute&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
-          <mxGeometry x="120" y="40" width="240" height="120" as="geometry" />
+          <mxGeometry x="-220" y="-230" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="svSCijLYjMoTOdasfPkZ-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="svSCijLYjMoTOdasfPkZ-1" source="svSCijLYjMoTOdasfPkZ-22" target="svSCijLYjMoTOdasfPkZ-6">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -145,7 +145,7 @@
             <mxPoint x="840" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="svSCijLYjMoTOdasfPkZ-21" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="svSCijLYjMoTOdasfPkZ-1" source="svSCijLYjMoTOdasfPkZ-22" target="svSCijLYjMoTOdasfPkZ-6">
+        <mxCell id="svSCijLYjMoTOdasfPkZ-21" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="svSCijLYjMoTOdasfPkZ-1" source="svSCijLYjMoTOdasfPkZ-22" target="svSCijLYjMoTOdasfPkZ-6">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="630" y="510" as="sourcePoint" />
             <mxPoint x="790" y="510" as="targetPoint" />
@@ -157,6 +157,19 @@
         </mxCell>
         <mxCell id="svSCijLYjMoTOdasfPkZ-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b style=&quot;outline: 0px&quot;&gt;CacheAtributeService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ CacheAttributeService(IAttributeService, ICache): void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
           <mxGeometry x="580" y="380" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svSCijLYjMoTOdasfPkZ-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b style=&quot;outline: 0px&quot;&gt;AtributeService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ AttributeService(IRepository): void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="svSCijLYjMoTOdasfPkZ-1">
+          <mxGeometry x="120" y="380" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svSCijLYjMoTOdasfPkZ-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="svSCijLYjMoTOdasfPkZ-1" source="svSCijLYjMoTOdasfPkZ-24" target="svSCijLYjMoTOdasfPkZ-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="732.6428571428571" y="360" as="sourcePoint" />
+            <mxPoint x="840" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="360" />
+              <mxPoint x="735" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
