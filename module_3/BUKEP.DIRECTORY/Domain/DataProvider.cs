@@ -18,5 +18,15 @@ namespace BUKEP.DIRECTORY
 		/// Наименование
 		/// </summary>
 		public string Name { get; set; }
-	}
+
+		/// <summary>
+		/// Атрибуты источника данных
+		/// </summary>
+		public List<Attribute> DataSourceAttributes { get; set; }
+
+		/// <summary>
+		/// Атрибуты поля
+		/// </summary>
+        public List<Attribute> FieldAttributes { get; set; }
+    }
 }

@@ -22,7 +22,7 @@ namespace BUKEP.DIRECTORY
 		/// <summary>
 		/// Источник данных
 		/// </summary>
-		public DataSource DataSource { get; set; }
+		public int DataSourceId { get; set; }
 
 		/// <summary>
 		/// Тип данных
