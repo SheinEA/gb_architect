@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BUKEP.DIRECTORY.Domain
+namespace BUKEP.DIRECTORY
 {
     /// <summary>
     /// Атрибут

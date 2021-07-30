@@ -1,0 +1,105 @@
+﻿@model IEnumerable<DataProviderViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Провайдеры данных</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Новый провайдер</a>
+</p>
+
+@foreach (var item in Model)
+{
+<div>
+    <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
+
+    <h5>Атрибуты источника данных</h5>
+    <a class="btn btn-primary" asp-action="AddSourceAttribute" asp-route-providerId="@item.Id">Добавить атрибут</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataSourceAttributes[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataSourceAttributes[0].Description)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var source in item.DataSourceAttributes)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => source.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => source.Description)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5>Атрибуты поля данных</h5>
+    <a class="btn btn-primary" asp-action="AddFieldAttribute">Добавить атрибут</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FieldAttributes[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FieldAttributes[0].Description)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var source in item.FieldAttributes)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => source.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => source.Description)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+}
+
+
+
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
