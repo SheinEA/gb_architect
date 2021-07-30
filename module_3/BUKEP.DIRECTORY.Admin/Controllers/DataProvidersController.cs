@@ -11,10 +11,12 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
     public class DataProvidersController : Controller
     {
         private readonly IDataProviderService _providerService;
+        private readonly IAttributeService _attributeService;
 
-        public DataProvidersController(IDataProviderService providerService)
+        public DataProvidersController(IDataProviderService providerService, IAttributeService attributeService)
         {
             _providerService = providerService;
+            _attributeService = attributeService;
         }
 
         // GET: DataProvidersController
@@ -106,8 +108,9 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         public ActionResult AddSourceAttribute(int providerId)
         {
             var provider = _providerService.GetProvider(providerId);
-
-            return View(providerId);
+            var attributes = _attributeService.Get();
+            var availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
+            return View(availableAttributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description}));
         }
 
         // POST: DataProvidersController/AddAttribute
