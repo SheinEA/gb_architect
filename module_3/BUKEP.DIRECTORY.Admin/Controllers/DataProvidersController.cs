@@ -107,11 +107,15 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: DataProvidersController/AddAttribute/1
         public ActionResult AddSourceAttribute(int providerId)
         {
-            var provider = _providerService.GetProvider(providerId);
-            var attributes = _attributeService.Get();
-            var availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
-            return View(availableAttributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description}));
+            //var provider = _providerService.GetProvider(providerId);
+            //var attributes = _attributeService.Get();
+            //var availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
+            //return View(availableAttributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description}));
+
+            ViewBag.ProviderId = providerId;
+            return View(new List<AttributeViewModel>() { new AttributeViewModel { Id = 1, Name = "Test", Description = "Test" } });
         }
+
 
         // POST: DataProvidersController/AddAttribute
         [HttpPost]
@@ -121,7 +125,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             try
             {
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(AddSourceAttribute), providerId);
             }
             catch
             {
