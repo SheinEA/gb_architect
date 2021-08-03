@@ -33,10 +33,12 @@ namespace BUKEP.DIRECTORY.Admin
             services.AddScoped<IDbRepository<DataSourceAttribteEntity>, EfRepository<DirectoryDbContext, DataSourceAttribteEntity>>();
             services.AddScoped<IDbRepository<FieldAttribteEntity>, EfRepository<DirectoryDbContext, FieldAttribteEntity>>();
             services.AddScoped<IDbRepository<DataProviderEntity>, EfRepository<DirectoryDbContext, DataProviderEntity>>();
+            services.AddScoped<IDbRepository<DataSourceEntity>, EfRepository<DirectoryDbContext, DataSourceEntity>>();
             services.AddScoped<IDbRepository<Attribute>, EfRepository<DirectoryDbContext, Attribute>>();
 
             // Register services
             services.AddScoped<IDataProviderService, DataProviderService>();
+            services.AddScoped<IDataSourceService, DataSourceService>();
             services.AddScoped<IAttributeService, AttributeService>();
 
             services.AddControllersWithViews();
