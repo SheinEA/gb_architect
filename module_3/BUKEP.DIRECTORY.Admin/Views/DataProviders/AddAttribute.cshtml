@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AttributeViewModel>
+
+@{
+    ViewData["Title"] = "AddAttribute";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Атрибуты</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @using (Html.BeginForm("AddAttribute"))
+                    {
+                        @Html.Hidden("attributeType", (AttributeType)ViewBag.AttributeType)
+                        @Html.Hidden("providerId", (int)ViewBag.ProviderId)
+                        @Html.Hidden("attributeId", item.Id)
+                        <input type="submit" value="Добавить" class="btn btn-primary" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index">Назад</a>
+</div>

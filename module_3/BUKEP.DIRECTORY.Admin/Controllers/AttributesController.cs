@@ -21,7 +21,10 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: AttributesController
         public ActionResult Index()
         {
-            return View();
+            var attributes = _attributeService.Get();
+            var model = attributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description });
+
+            return View(model);
         }
 
         // GET: AttributesController/Details/5
@@ -44,8 +47,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             try
             {
                 _attributeService.Add(new Attribute { Name = attribute.Name, Description = attribute.Description });
-                return RedirectToAction("Index", "Home");
-                //return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index));
             }
             catch
             {

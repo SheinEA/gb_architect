@@ -12,6 +12,6 @@ namespace BUKEP.DIRECTORY.Db.Map
 			builder.HasKey( p => new { p.ProviderId, p.AttributeId });
 			builder.Property(p => p.ProviderId).HasColumnName("DataProviderId");
 			builder.Property(p => p.AttributeId).HasColumnName("AttributeId");
-		}
+        }
     }
 }

@@ -9,6 +9,7 @@
 
 <p>
     <a class="btn btn-primary" asp-action="Create">Новый провайдер</a>
+    <a class="btn btn-primary" asp-controller="Attributes" asp-action="Index">Атрибуты</a>
 </p>
 
 @foreach (var item in Model)
@@ -17,7 +18,7 @@
     <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
 
     <h5>Атрибуты источника данных</h5>
-    <a class="btn btn-primary" asp-action="AddSourceAttribute" asp-route-providerId="@item.Id">Добавить атрибут</a>
+    <a class="btn btn-primary" asp-action="AddAttribute" asp-route-attributeType="@AttributeType.DataSource" asp-route-providerId="@item.Id">Добавить атрибут</a>
     <table class="table">
         <thead>
             <tr>
@@ -45,7 +46,7 @@
     </table>
 
     <h5>Атрибуты поля данных</h5>
-    <a class="btn btn-primary" asp-action="AddFieldAttribute">Добавить атрибут</a>
+    <a class="btn btn-primary" asp-action="AddAttribute" asp-route-attributeType="@AttributeType.Field" asp-route-providerId="@item.Id">Добавить атрибут</a>
     <table class="table">
         <thead>
             <tr>
@@ -74,32 +75,3 @@
 
 </div>
 }
-
-
-
-
-@*<table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Name)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>*@

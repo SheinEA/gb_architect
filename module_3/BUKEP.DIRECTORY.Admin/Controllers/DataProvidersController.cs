@@ -27,7 +27,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             {
                 Id = i.Id,
                 Name = i.Name,
-                DataSourceAttributes = i.DataSourceAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description}).ToList(),
+                DataSourceAttributes = i.DataSourceAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description }).ToList(),
                 FieldAttributes = i.FieldAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description }).ToList(),
             });
 
@@ -104,28 +104,48 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             }
         }
 
-        // GET: DataProvidersController/AddAttribute/1
-        public ActionResult AddSourceAttribute(int providerId)
+        // GET: DataProvidersController/AddAttribute/1/1
+        public ActionResult AddAttribute(AttributeType attributeType, int providerId)
         {
-            //var provider = _providerService.GetProvider(providerId);
-            //var attributes = _attributeService.Get();
-            //var availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
-            //return View(availableAttributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description}));
-
             ViewBag.ProviderId = providerId;
-            return View(new List<AttributeViewModel>() { new AttributeViewModel { Id = 1, Name = "Test", Description = "Test" } });
+            ViewBag.AttributeType = attributeType;
+
+            var attributes = _attributeService.Get();
+            var provider = _providerService.GetProvider(providerId);
+
+            var availableAttributes = new List<Attribute>();
+
+            switch (attributeType)
+            {
+                case AttributeType.DataSource:
+                    availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
+                    break;
+                case AttributeType.Field:
+                    availableAttributes = attributes.Where(i => !provider.FieldAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
+                    break;
+            }
+
+            return View(availableAttributes.Select(i => new AttributeViewModel { Id = i.Id, Name = i.Name, Description = i.Description}));
         }
 
 
         // POST: DataProvidersController/AddAttribute
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult AddSourceAttribute(int providerId, int attributeId)
+        public ActionResult AddAttribute(AttributeType attributeType, int providerId, int attributeId)
         {
             try
             {
-
-                return RedirectToAction(nameof(AddSourceAttribute), providerId);
+                switch (attributeType)
+                {
+                    case AttributeType.DataSource:
+                        _providerService.AddDataSourceAttribute(providerId, attributeId);
+                        break;
+                    case AttributeType.Field:
+                        _providerService.AddFieldAttribute(providerId, attributeId);
+                        break;
+                }
+                return RedirectToAction(nameof(AddAttribute), new { attributeType, providerId });
             }
             catch
             {

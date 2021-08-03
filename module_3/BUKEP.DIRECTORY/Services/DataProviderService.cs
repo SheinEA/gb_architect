@@ -39,20 +39,30 @@ namespace BUKEP.DIRECTORY
             var sourceAttributeEntities = _sourceAttributeRepo.Table.ToList();
             var fieldAttributeEntities = _fieldAttributeRepo.Table.ToList();
 
-            var providers = providerEntities.Select(i => new DataProvider
-            {
-                Id = i.Id,
-                Name = i.Name,
-                FieldAttributes = attributes.Where(i => fieldAttributeEntities.Where(x => x.ProviderId == i.Id).Select(x => x.ProviderId).Contains(i.Id)).ToList(),
-                DataSourceAttributes = attributes.Where(i => sourceAttributeEntities.Where(x => x.ProviderId == i.Id).Select(x => x.ProviderId).Contains(i.Id)).ToList(),
-            });;
+            var providers = providerEntities.Select(i => new DataProvider { Id = i.Id, Name = i.Name, }).ToList();
 
-            return providers.ToList();
+            foreach (var provider in providers)
+            {
+                provider.FieldAttributes = attributes.Where(i => fieldAttributeEntities.Where(x => x.ProviderId == provider.Id).Select(x => x.AttributeId).Contains(i.Id)).ToList();
+                provider.DataSourceAttributes = attributes.Where(i => sourceAttributeEntities.Where(x => x.ProviderId == provider.Id).Select(x => x.AttributeId).Contains(i.Id)).ToList();
+            }
+
+            return providers;
         }
 
         public DataProvider GetProvider(int id)
         {
             return GetProviders().FirstOrDefault(i => i.Id == id);
+        }
+
+        public void AddDataSourceAttribute(int providerId, int attributeId)
+        {
+            _sourceAttributeRepo.Add(new DataSourceAttribteEntity { ProviderId = providerId, AttributeId = attributeId });
+        }
+
+        public void AddFieldAttribute(int providerId, int attributeId)
+        {
+            _fieldAttributeRepo.Add(new FieldAttribteEntity { ProviderId = providerId, AttributeId = attributeId });
         }
     }
 }
