@@ -13,17 +13,12 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger, IDataProviderService providerService, IAttributeService attributeService)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

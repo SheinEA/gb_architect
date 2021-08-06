@@ -8,58 +8,63 @@ using System.Threading.Tasks;
 
 namespace BUKEP.DIRECTORY.Admin.Controllers
 {
-    public class DataSourcesController : Controller
+    public class FieldsController : Controller
     {
-        private readonly IDataSourceService _dataSourceService;
+        private readonly IFieldService _fieldService;
 
-        public DataSourcesController(IDataSourceService dataSourceService)
+
+        public FieldsController(IFieldService fieldService)
         {
-            _dataSourceService = dataSourceService;
+            _fieldService = fieldService;
         }
 
-        // GET: DataSourcesController
-        public ActionResult Index()
+        // GET: FieldsController
+        public ActionResult Index(int sourceId)
         {
-            var dataSources = _dataSourceService.Get();
-            var model = dataSources.Select(i => new DataSourceViewModel
+            var fields = _fieldService.GetBySourceId(sourceId);
+            var model = fields.Select(i => new FieldViewModel
             {
                 Id = i.Id,
                 Name = i.Name,
-                Description = i.Description
+                DataSourceId = i.DataSourceId,
+                DataType = i.DataType
             });
+
+            ViewBag.SourceId = sourceId;
 
             return View(model);
         }
 
-        // GET: DataSourcesController/Details/5
+        // GET: FieldsController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: DataSourcesController/Create
-        public ActionResult Create()
+        // GET: FieldsController/Create
+        public ActionResult Create(int sourceId)
         {
+            ViewBag.SourceId = sourceId;
             return View();
         }
 
-        // POST: DataSourcesController/Create
+        // POST: FieldsController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(DataSourceViewModel model)
+        public ActionResult Create(FieldViewModel model)
         {
             try
             {
-                var dataSource = new DataSource
+                var field = new Field
                 {
                     Name = model.Name,
-                    Description = model.Description,
-                    ProviderId = model.ProviderId
+                    DataSourceId = model.DataSourceId,
+                    DataType = model.DataType
                 };
 
-                _dataSourceService.Add(dataSource);
+                _fieldService.Add(field);
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { sourceId = model.DataSourceId });
             }
             catch
             {
@@ -67,13 +72,13 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             }
         }
 
-        // GET: DataSourcesController/Edit/5
+        // GET: FieldsController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: DataSourcesController/Edit/5
+        // POST: FieldsController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -88,13 +93,13 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             }
         }
 
-        // GET: DataSourcesController/Delete/5
+        // GET: FieldsController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: DataSourcesController/Delete/5
+        // POST: FieldsController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

@@ -24,7 +24,7 @@ namespace BUKEP.DIRECTORY
 		/// <summary>
 		/// Спрвочник
 		/// </summary>
-		Reference = 4,
+		Directory = 4,
 
 		/// <summary>
 		/// Логический

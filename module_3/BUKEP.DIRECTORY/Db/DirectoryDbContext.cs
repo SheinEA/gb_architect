@@ -13,6 +13,7 @@ namespace BUKEP.DIRECTORY.Db
             modelBuilder.ApplyConfiguration(new FieldAttribteEntityMap());
             modelBuilder.ApplyConfiguration(new DataProviderEntityMap());
             modelBuilder.ApplyConfiguration(new DataSourceEntityMap());
+            modelBuilder.ApplyConfiguration(new FieldEntityMap());
             modelBuilder.ApplyConfiguration(new AttributeMap());
 
             base.OnModelCreating(modelBuilder);
