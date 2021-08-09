@@ -9,12 +9,13 @@ namespace BUKEP.DIRECTORY.Db
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new DataSourceAttributeValueEntityMap());
             modelBuilder.ApplyConfiguration(new DataSourceAttribteEntityMap());
             modelBuilder.ApplyConfiguration(new FieldAttribteEntityMap());
             modelBuilder.ApplyConfiguration(new DataProviderEntityMap());
             modelBuilder.ApplyConfiguration(new DataSourceEntityMap());
+            modelBuilder.ApplyConfiguration(new AttributeEntityMap());
             modelBuilder.ApplyConfiguration(new FieldEntityMap());
-            modelBuilder.ApplyConfiguration(new AttributeMap());
 
             base.OnModelCreating(modelBuilder);
         }

@@ -30,11 +30,12 @@ namespace BUKEP.DIRECTORY.Admin
             services.AddDbContext<DirectoryDbContext>(option => option.UseSqlServer(connectionString));
 
             // Register repositories
+            services.AddScoped<IDbRepository<DataSourceAttributeValueEntity>, EfRepository<DirectoryDbContext, DataSourceAttributeValueEntity>>();
             services.AddScoped<IDbRepository<DataSourceAttribteEntity>, EfRepository<DirectoryDbContext, DataSourceAttribteEntity>>();
             services.AddScoped<IDbRepository<FieldAttribteEntity>, EfRepository<DirectoryDbContext, FieldAttribteEntity>>();
             services.AddScoped<IDbRepository<DataProviderEntity>, EfRepository<DirectoryDbContext, DataProviderEntity>>();
             services.AddScoped<IDbRepository<DataSourceEntity>, EfRepository<DirectoryDbContext, DataSourceEntity>>();
-            services.AddScoped<IDbRepository<Attribute>, EfRepository<DirectoryDbContext, Attribute>>();
+            services.AddScoped<IDbRepository<AttributeEntity>, EfRepository<DirectoryDbContext, AttributeEntity>>();
             services.AddScoped<IDbRepository<FieldEntity>, EfRepository<DirectoryDbContext, FieldEntity>>();
 
             // Register services

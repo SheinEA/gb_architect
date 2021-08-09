@@ -9,15 +9,16 @@ namespace BUKEP.DIRECTORY
 	/// </summary>
 	public class DataSource
 	{
-        public DataSource()
-        {
+		public DataSource()
+		{
 			Fields = new List<Field>();
-        }
+			Attributes = new List<Attribute>();
+		}
 
-        /// <summary>
-        /// Идентификатор провайдера данных
-        /// </summary>
-        public int Id { get; set; }
+		/// <summary>
+		/// Идентификатор провайдера данных
+		/// </summary>
+		public int Id { get; set; }
 
 		/// <summary>
 		/// Наименование
@@ -32,11 +33,16 @@ namespace BUKEP.DIRECTORY
 		/// <summary>
 		/// Идентификатор провайдера данных
 		/// </summary>
-		public int ProviderId { get; set;  }
+		public int ProviderId { get; set; }
 
 		/// <summary>
-		/// Поля справочника
+		/// Поля источника данных
 		/// </summary>
 		public List<Field> Fields { get; set; }
+
+		/// <summary>
+		/// Атрибуты источника данных
+		/// </summary>
+		public List<Attribute> Attributes {get; set;}
 	}
 }

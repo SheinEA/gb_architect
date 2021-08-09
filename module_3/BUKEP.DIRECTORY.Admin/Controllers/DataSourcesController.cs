@@ -11,10 +11,12 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
     public class DataSourcesController : Controller
     {
         private readonly IDataSourceService _dataSourceService;
+        private readonly IDataProviderService _dataProviderService;
 
-        public DataSourcesController(IDataSourceService dataSourceService)
+        public DataSourcesController(IDataSourceService dataSourceService, IDataProviderService dataProviderService)
         {
             _dataSourceService = dataSourceService;
+            _dataProviderService = dataProviderService;
         }
 
         // GET: DataSourcesController
@@ -31,10 +33,42 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             return View(model);
         }
 
-        // GET: DataSourcesController/Details/5
-        public ActionResult Details(int id)
+        // GET: DataSourcesController/Attributes/5
+        public ActionResult Attributes(int sourceId)
         {
-            return View();
+            var source = _dataSourceService.Get(sourceId);
+            var provider = _dataProviderService.GetProvider(source.ProviderId);
+
+            var models = provider.DataSourceAttributes.Select(i => new AttributeViewModel
+            {
+                Id = i.Id,
+                Name = i.Name,
+                Description = i.Description,
+                Value = source.Attributes.FirstOrDefault(a => a.Id == i.Id)?.Value
+            }).ToList();
+
+            ViewBag.SourceId = source.Id;
+            ViewBag.ProviderId = provider.Id;
+            return View(models);
+        }
+
+        // POST: DataSourcesController/Attributes
+        [HttpPost]
+        public ActionResult Attributes(int sourceId, int providerId, IEnumerable<AttributeViewModel> models)
+        {
+            try
+            {
+                foreach (var item in models)
+                {
+                    _dataSourceService.SaveSourceAttribute(item.Id, sourceId, providerId, item.Value);
+                }
+
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception e)
+            {
+                return View();
+            }
         }
 
         // GET: DataSourcesController/Create

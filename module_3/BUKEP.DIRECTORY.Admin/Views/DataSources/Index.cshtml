@@ -34,9 +34,11 @@
                     @Html.DisplayFor(modelItem => item.Description)
                 </td>
                 <td>
-                    @Html.ActionLink("Поля", "Index", "Fields", new { sourceId = item.Id })
+                    @Html.ActionLink("Поля", "Index", "Fields", new { sourceId = item.Id }) |
+                    @Html.ActionLink("Атрибуты", "Attributes", new { sourceId = item.Id })
                 </td>
             </tr>
         }
+
     </tbody>
 </table>

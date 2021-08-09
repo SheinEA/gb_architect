@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace BUKEP.DIRECTORY.Admin.Models
 {
@@ -15,5 +11,7 @@ namespace BUKEP.DIRECTORY.Admin.Models
 
         [Required(ErrorMessage = "не указан описание атрибута")]
         public string Description { get; set; }
+
+        public string Value { get; set; }
     }
 }
