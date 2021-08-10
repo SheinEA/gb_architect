@@ -18,21 +18,7 @@ namespace BUKEP.DIRECTORY
             _attributeService = attributeService;
         }
 
-        public DataSource Add(DataSource dataSource)
-        {
-            var entity = new DataSourceEntity
-            {
-                Name = dataSource.Name,
-                Description = dataSource.Description,
-                DataProviderId = dataSource.ProviderId
-            };
-
-            _sourceRepo.Add(entity);
-
-            dataSource.Id = entity.Id;
-            return dataSource;
-        }
-
+        /// <inheritdoc/>
         public IEnumerable<DataSource> Get()
         {
             var attributes = _attributeService.Get();
@@ -68,16 +54,35 @@ namespace BUKEP.DIRECTORY
             return dataSources;
         }
 
+        /// <inheritdoc/>
         public DataSource Get(int id)
         {
             return Get().FirstOrDefault(i => i.Id == id);
         }
 
+        /// <inheritdoc/>
+        public DataSource Add(DataSource dataSource)
+        {
+            var entity = new DataSourceEntity
+            {
+                Name = dataSource.Name,
+                Description = dataSource.Description,
+                DataProviderId = dataSource.ProviderId
+            };
+
+            _sourceRepo.Add(entity);
+
+            dataSource.Id = entity.Id;
+            return dataSource;
+        }
+
+        /// <inheritdoc/>
         public void SaveFieldAttribute(int fieldId, int sourceId, int providerId, string value)
         {
 
         }
 
+        /// <inheritdoc/>
         public void SaveSourceAttribute(int attributeId, int sourceId, int providerId, string value)
         {
             var entity = _sourceAttributeRepo.Table.FirstOrDefault(i => i.AttributeId == attributeId && i.DataSourceId == sourceId && i.ProviderId == providerId);

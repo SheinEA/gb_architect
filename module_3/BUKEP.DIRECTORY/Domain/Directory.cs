@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BUKEP.DIRECTORY
+﻿namespace BUKEP.DIRECTORY
 {
 	/// <summary>
 	/// Справочник

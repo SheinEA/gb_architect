@@ -22,7 +22,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: DataProvidersController
         public ActionResult Index()
         {
-            var providers = _providerService.GetProviders();
+            var providers = _providerService.Get();
             var providersView = providers.Select(i => new DataProviderViewModel
             {
                 Id = i.Id,
@@ -111,7 +111,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             ViewBag.AttributeType = attributeType;
 
             var attributes = _attributeService.Get();
-            var provider = _providerService.GetProvider(providerId);
+            var provider = _providerService.Get(providerId);
 
             var availableAttributes = new List<Attribute>();
 
@@ -139,7 +139,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
                 switch (attributeType)
                 {
                     case AttributeType.DataSource:
-                        _providerService.AddDataSourceAttribute(providerId, attributeId);
+                        _providerService.AddSourceAttribute(providerId, attributeId);
                         break;
                     case AttributeType.Field:
                         _providerService.AddFieldAttribute(providerId, attributeId);

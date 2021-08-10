@@ -24,15 +24,8 @@ namespace BUKEP.DIRECTORY
             _attributeService = attributeService;
         }
 
-        public DataProvider Add(string name)
-        {
-            var data = new DataProviderEntity { Name = name };
-            _providerRepo.Add(data);
-
-            return new DataProvider { Id = data.Id, Name = data.Name };
-        }
-
-        public IEnumerable<DataProvider> GetProviders()
+        /// <inheritdoc/>
+        public IEnumerable<DataProvider> Get()
         {
             var providerEntities = _providerRepo.Table.ToList();
             var attributes = _attributeService.Get();
@@ -50,16 +43,28 @@ namespace BUKEP.DIRECTORY
             return providers;
         }
 
-        public DataProvider GetProvider(int id)
+        /// <inheritdoc/>
+        public DataProvider Get(int id)
         {
-            return GetProviders().FirstOrDefault(i => i.Id == id);
+            return Get().FirstOrDefault(i => i.Id == id);
         }
 
-        public void AddDataSourceAttribute(int providerId, int attributeId)
+        /// <inheritdoc/>
+        public DataProvider Add(string name)
+        {
+            var data = new DataProviderEntity { Name = name };
+            _providerRepo.Add(data);
+
+            return new DataProvider { Id = data.Id, Name = data.Name };
+        }
+
+        /// <inheritdoc/>
+        public void AddSourceAttribute(int providerId, int attributeId)
         {
             _sourceAttributeRepo.Add(new DataSourceAttribteEntity { ProviderId = providerId, AttributeId = attributeId });
         }
 
+        /// <inheritdoc/>
         public void AddFieldAttribute(int providerId, int attributeId)
         {
             _fieldAttributeRepo.Add(new FieldAttribteEntity { ProviderId = providerId, AttributeId = attributeId });

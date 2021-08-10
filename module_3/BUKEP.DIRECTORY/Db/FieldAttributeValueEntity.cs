@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BUKEP.DIRECTORY.Db
+﻿namespace BUKEP.DIRECTORY.Db
 {
     public class FieldAttributeValueEntity
     {

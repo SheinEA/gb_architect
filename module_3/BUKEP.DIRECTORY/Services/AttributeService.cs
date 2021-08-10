@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace BUKEP.DIRECTORY
 {
@@ -15,6 +14,7 @@ namespace BUKEP.DIRECTORY
             _attributeRepo = attributeRepo;
         }
 
+        /// <inheritdoc/>
         public Attribute Add(Attribute attribute)
         {
             var entity = new AttributeEntity
@@ -32,11 +32,13 @@ namespace BUKEP.DIRECTORY
             return null;
         }
 
+        /// <inheritdoc/>
         public void Delete(int Id)
         {
             _attributeRepo.Remove(i => i.Id == Id);
         }
 
+        /// <inheritdoc/>
         public IEnumerable<Attribute> Get()
         {
             var entities = _attributeRepo.Get(i => i).ToList();
@@ -50,6 +52,7 @@ namespace BUKEP.DIRECTORY
             return attributes;
         }
 
+        /// <inheritdoc/>
         public void Update(Attribute attribute)
         {
             throw new NotImplementedException();

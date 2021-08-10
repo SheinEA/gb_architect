@@ -1,6 +1,5 @@
 ﻿using BUKEP.DATA.Db;
 using BUKEP.DIRECTORY.Db;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -15,21 +14,7 @@ namespace BUKEP.DIRECTORY
             _fieldRepo = fieldRepo;
         }
 
-        public Field Add(Field field)
-        {
-            var entity = new FieldEntity
-            {
-                Name = field.Name,
-                DataSourceId = field.DataSourceId,
-                DataTypeId = (int)field.DataType
-            };
-
-            _fieldRepo.Add(entity);
-            field.Id = entity.Id;
-
-            return field;
-        }
-
+        /// <inheritdoc/>
         public IEnumerable<Field> GetBySourceId(int sourceId)
         {
             var entities = _fieldRepo.Table.Where(i => i.DataSourceId == sourceId).ToList();
@@ -43,6 +28,22 @@ namespace BUKEP.DIRECTORY
             });
 
             return fields.ToList();
+        }
+
+        /// <inheritdoc/>
+        public Field Add(Field field)
+        {
+            var entity = new FieldEntity
+            {
+                Name = field.Name,
+                DataSourceId = field.DataSourceId,
+                DataTypeId = (int)field.DataType
+            };
+
+            _fieldRepo.Add(entity);
+            field.Id = entity.Id;
+
+            return field;
         }
     }
 }

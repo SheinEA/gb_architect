@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace BUKEP.DIRECTORY.Admin.Controllers
 {
@@ -37,7 +36,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         public ActionResult Attributes(int sourceId)
         {
             var source = _dataSourceService.Get(sourceId);
-            var provider = _dataProviderService.GetProvider(source.ProviderId);
+            var provider = _dataProviderService.Get(source.ProviderId);
 
             var models = provider.DataSourceAttributes.Select(i => new AttributeViewModel
             {
