@@ -12,7 +12,6 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
     {
         private readonly IFieldService _fieldService;
 
-
         public FieldsController(IFieldService fieldService)
         {
             _fieldService = fieldService;
@@ -35,10 +34,42 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             return View(model);
         }
 
-        // GET: FieldsController/Details/5
-        public ActionResult Details(int id)
+        // GET: FieldsController/Attributes/5
+        public ActionResult Attributes(int sourceId)
         {
-            return View();
+            //var source = _dataSourceService.Get(sourceId);
+            //var provider = _dataProviderService.Get(source.ProviderId);
+
+            //var models = provider.DataSourceAttributes.Select(i => new AttributeViewModel
+            //{
+            //    Id = i.Id,
+            //    Name = i.Name,
+            //    Description = i.Description,
+            //    Value = source.Attributes.FirstOrDefault(a => a.Id == i.Id)?.Value
+            //}).ToList();
+
+            //ViewBag.SourceId = source.Id;
+            //ViewBag.ProviderId = provider.Id;
+            return View(/*models*/);
+        }
+
+        // POST: FieldsController/Attributes
+        [HttpPost]
+        public ActionResult Attributes(int sourceId, int providerId, IEnumerable<AttributeViewModel> models)
+        {
+            try
+            {
+                foreach (var item in models)
+                {
+                    //_dataSourceService.SaveSourceAttribute(item.Id, sourceId, providerId, item.Value);
+                }
+
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception e)
+            {
+                return View();
+            }
         }
 
         // GET: FieldsController/Create

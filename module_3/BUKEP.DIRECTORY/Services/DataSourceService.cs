@@ -77,12 +77,6 @@ namespace BUKEP.DIRECTORY
         }
 
         /// <inheritdoc/>
-        public void SaveFieldAttribute(int fieldId, int sourceId, int providerId, string value)
-        {
-
-        }
-
-        /// <inheritdoc/>
         public void SaveSourceAttribute(int attributeId, int sourceId, int providerId, string value)
         {
             var entity = _sourceAttributeRepo.Table.FirstOrDefault(i => i.AttributeId == attributeId && i.DataSourceId == sourceId && i.ProviderId == providerId);

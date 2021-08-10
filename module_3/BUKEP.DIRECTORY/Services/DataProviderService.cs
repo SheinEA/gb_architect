@@ -8,13 +8,13 @@ namespace BUKEP.DIRECTORY
     public class DataProviderService : IDataProviderService
     {
         private readonly IDbRepository<DataProviderEntity> _providerRepo;
-        private readonly IDbRepository<FieldAttribteEntity> _fieldAttributeRepo;
+        private readonly IDbRepository<FieldAttributeEntity> _fieldAttributeRepo;
         private readonly IDbRepository<DataSourceAttribteEntity> _sourceAttributeRepo;
         private readonly IAttributeService _attributeService;
 
         public DataProviderService(
             IDbRepository<DataProviderEntity> providerRepo,
-            IDbRepository<FieldAttribteEntity> fieldAttributeRepo,
+            IDbRepository<FieldAttributeEntity> fieldAttributeRepo,
             IDbRepository<DataSourceAttribteEntity> sourceAttributeRepo,
             IAttributeService attributeService)
         {
@@ -67,7 +67,7 @@ namespace BUKEP.DIRECTORY
         /// <inheritdoc/>
         public void AddFieldAttribute(int providerId, int attributeId)
         {
-            _fieldAttributeRepo.Add(new FieldAttribteEntity { ProviderId = providerId, AttributeId = attributeId });
+            _fieldAttributeRepo.Add(new FieldAttributeEntity { ProviderId = providerId, AttributeId = attributeId });
         }
     }
 }

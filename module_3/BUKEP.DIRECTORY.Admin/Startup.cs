@@ -32,7 +32,8 @@ namespace BUKEP.DIRECTORY.Admin
             // Register repositories
             services.AddScoped<IDbRepository<DataSourceAttributeValueEntity>, EfRepository<DirectoryDbContext, DataSourceAttributeValueEntity>>();
             services.AddScoped<IDbRepository<DataSourceAttribteEntity>, EfRepository<DirectoryDbContext, DataSourceAttribteEntity>>();
-            services.AddScoped<IDbRepository<FieldAttribteEntity>, EfRepository<DirectoryDbContext, FieldAttribteEntity>>();
+            services.AddScoped<IDbRepository<FieldAttributeValueEntity>, EfRepository<DirectoryDbContext, FieldAttributeValueEntity>>();
+            services.AddScoped<IDbRepository<FieldAttributeEntity>, EfRepository<DirectoryDbContext, FieldAttributeEntity>>();
             services.AddScoped<IDbRepository<DataProviderEntity>, EfRepository<DirectoryDbContext, DataProviderEntity>>();
             services.AddScoped<IDbRepository<DataSourceEntity>, EfRepository<DirectoryDbContext, DataSourceEntity>>();
             services.AddScoped<IDbRepository<AttributeEntity>, EfRepository<DirectoryDbContext, AttributeEntity>>();

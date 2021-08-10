@@ -32,14 +32,5 @@ namespace BUKEP.DIRECTORY
         /// <param name="providerId">Идентификатор провайдера</param>
         /// <param name="value">Значение</param>
         void SaveSourceAttribute(int attributeId, int sourceId, int providerId, string value);
-
-        /// <summary>
-        /// Сохранить значение атрибута для поля данных
-        /// </summary>
-        /// <param name="attributeId">Идентификатор атрибута</param>
-        /// <param name="sourceId">Идентификатор источника</param>
-        /// <param name="providerId">Идентификатор провайдера</param>
-        /// <param name="value">Значение</param>
-        void SaveFieldAttribute(int fieldId, int sourceId, int providerId, string value);
     }
 }

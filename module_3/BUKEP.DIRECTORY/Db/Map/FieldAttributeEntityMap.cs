@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BUKEP.DIRECTORY.Db.Map
 {
-    internal class FieldAttribteEntityMap : IEntityTypeConfiguration<FieldAttribteEntity>
+    internal class FieldAttributeEntityMap : IEntityTypeConfiguration<FieldAttributeEntity>
     {
-        public void Configure(EntityTypeBuilder<FieldAttribteEntity> builder)
+        public void Configure(EntityTypeBuilder<FieldAttributeEntity> builder)
         {
 			builder.ToTable("FieldAttribute", "dir");
 

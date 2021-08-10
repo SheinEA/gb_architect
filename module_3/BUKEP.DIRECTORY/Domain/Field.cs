@@ -1,4 +1,6 @@
-﻿namespace BUKEP.DIRECTORY
+﻿using System.Collections.Generic;
+
+namespace BUKEP.DIRECTORY
 {
 	/// <summary>
 	/// Поле справочника
@@ -25,5 +27,9 @@
 		/// </summary>
 		public DataType DataType { get; set; }
 
+		/// <summary>
+		/// Атрибуты поля данных
+		/// </summary>
+		public List<Attribute> Attributes { get; set; }
 	}
 }

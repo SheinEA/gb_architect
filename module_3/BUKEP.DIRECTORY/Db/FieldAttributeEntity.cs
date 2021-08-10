@@ -1,6 +1,6 @@
 ﻿namespace BUKEP.DIRECTORY.Db
 {
-    public class FieldAttribteEntity
+    public class FieldAttributeEntity
     {
         /// <summary>
         /// Идентификатор провайдера

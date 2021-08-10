@@ -11,7 +11,8 @@ namespace BUKEP.DIRECTORY.Db
         {
             modelBuilder.ApplyConfiguration(new DataSourceAttributeValueEntityMap());
             modelBuilder.ApplyConfiguration(new DataSourceAttribteEntityMap());
-            modelBuilder.ApplyConfiguration(new FieldAttribteEntityMap());
+            modelBuilder.ApplyConfiguration(new FieldAttributeValueEntityMap());
+            modelBuilder.ApplyConfiguration(new FieldAttributeEntityMap());
             modelBuilder.ApplyConfiguration(new DataProviderEntityMap());
             modelBuilder.ApplyConfiguration(new DataSourceEntityMap());
             modelBuilder.ApplyConfiguration(new AttributeEntityMap());
