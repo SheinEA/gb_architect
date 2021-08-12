@@ -4,17 +4,20 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace BUKEP.DIRECTORY.Admin.Controllers
 {
     public class FieldsController : Controller
     {
         private readonly IFieldService _fieldService;
+        private readonly IDataSourceService _sourceService;
+        private readonly IDataProviderService _providerService;
 
-        public FieldsController(IFieldService fieldService)
+        public FieldsController(IFieldService fieldService, IDataSourceService sourceService, IDataProviderService providerService)
         {
             _fieldService = fieldService;
+            _sourceService = sourceService;
+            _providerService = providerService;
         }
 
         // GET: FieldsController
@@ -25,7 +28,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             {
                 Id = i.Id,
                 Name = i.Name,
-                DataSourceId = i.DataSourceId,
+                DataSourceId = i.SourceId,
                 DataType = i.DataType
             });
 
@@ -35,36 +38,38 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         }
 
         // GET: FieldsController/Attributes/5
-        public ActionResult Attributes(int sourceId)
+        public ActionResult Attributes(int fieldId)
         {
-            //var source = _dataSourceService.Get(sourceId);
-            //var provider = _dataProviderService.Get(source.ProviderId);
+            var field = _fieldService.Get(fieldId);
+            var source = _sourceService.Get(field.SourceId);
+            var provider = _providerService.Get(source.ProviderId);
 
-            //var models = provider.DataSourceAttributes.Select(i => new AttributeViewModel
-            //{
-            //    Id = i.Id,
-            //    Name = i.Name,
-            //    Description = i.Description,
-            //    Value = source.Attributes.FirstOrDefault(a => a.Id == i.Id)?.Value
-            //}).ToList();
+            var models = provider.FieldAttributes.Select(i => new AttributeViewModel
+            {
+                Id = i.Id,
+                Name = i.Name,
+                Description = i.Description,
+                Value = field.Attributes.FirstOrDefault(a => a.Id == i.Id)?.Value
+            }).ToList();
 
-            //ViewBag.SourceId = source.Id;
-            //ViewBag.ProviderId = provider.Id;
-            return View(/*models*/);
+            ViewBag.FieldId = fieldId;
+            ViewBag.SourceId = source.Id;
+            ViewBag.ProviderId = provider.Id;
+            return View(models);
         }
 
         // POST: FieldsController/Attributes
         [HttpPost]
-        public ActionResult Attributes(int sourceId, int providerId, IEnumerable<AttributeViewModel> models)
+        public ActionResult Attributes(int fieldId, int sourceId, int providerId, IEnumerable<AttributeViewModel> models)
         {
             try
             {
                 foreach (var item in models)
                 {
-                    //_dataSourceService.SaveSourceAttribute(item.Id, sourceId, providerId, item.Value);
+                    _fieldService.SaveFieldAttribute(item.Id, fieldId, providerId, item.Value ?? string.Empty);
                 }
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index), new { sourceId = sourceId});
             }
             catch (Exception e)
             {
@@ -89,7 +94,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
                 var field = new Field
                 {
                     Name = model.Name,
-                    DataSourceId = model.DataSourceId,
+                    SourceId = model.DataSourceId,
                     DataType = model.DataType
                 };
 

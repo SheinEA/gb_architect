@@ -7,10 +7,15 @@ namespace BUKEP.DIRECTORY
 	/// </summary>
 	public class Field
 	{
-		/// <summary>
-		/// Идентификатор поля справочника
-		/// </summary>
-		public int Id { get; set; }
+        public Field()
+        {
+			Attributes = new List<Attribute>();
+        }
+
+        /// <summary>
+        /// Идентификатор поля справочника
+        /// </summary>
+        public int Id { get; set; }
 
 		/// <summary>
 		/// Наименование поля
@@ -20,7 +25,7 @@ namespace BUKEP.DIRECTORY
 		/// <summary>
 		/// Источник данных
 		/// </summary>
-		public int DataSourceId { get; set; }
+		public int SourceId { get; set; }
 
 		/// <summary>
 		/// Тип данных

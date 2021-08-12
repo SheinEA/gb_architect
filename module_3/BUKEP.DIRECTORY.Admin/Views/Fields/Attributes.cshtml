@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Атрибуты источника данных</h1>
+<h1>Атрибуты поля данных</h1>
 
 <hr />
 <div class="row">
@@ -23,8 +23,8 @@
             }
 
             <div class="form-group">
-                <input type="submit" value="Сохранить" class="btn btn-primary" asp-route-sourceId="@ViewBag.SourceId" asp-route-providerId="@ViewBag.ProviderId"/>
-                <a asp-action="Index" class="btn btn-primary">Назад</a>
+                <input type="submit" value="Сохранить" class="btn btn-primary" asp-route-fieldId="@ViewBag.FieldId" asp-route-sourceId="@ViewBag.SourceId"  asp-route-providerId="@ViewBag.ProviderId"/>
+                <a asp-action="Index" asp-route-sourceId="@ViewBag.SourceId"  class="btn btn-primary">Назад</a>
             </div>
         </form>
     </div>

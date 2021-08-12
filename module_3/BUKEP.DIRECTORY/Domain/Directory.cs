@@ -23,6 +23,6 @@
 		/// <summary>
 		/// Источник данных
 		/// </summary>
-		public DataSource DataSource { get; set; }
+		public DataSource Source { get; set; }
 	}
 }

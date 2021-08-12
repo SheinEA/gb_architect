@@ -9,7 +9,7 @@ namespace BUKEP.DIRECTORY
     {
         public DataProvider()
         {
-            DataSourceAttributes = new List<Attribute>();
+            SourceAttributes = new List<Attribute>();
             FieldAttributes = new List<Attribute>();
         }
 
@@ -26,7 +26,7 @@ namespace BUKEP.DIRECTORY
         /// <summary>
         /// Атрибуты источника данных
         /// </summary>
-        public List<Attribute> DataSourceAttributes { get; set; }
+        public List<Attribute> SourceAttributes { get; set; }
 
         /// <summary>
         /// Атрибуты поля

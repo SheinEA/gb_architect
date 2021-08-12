@@ -9,19 +9,19 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
 {
     public class DataSourcesController : Controller
     {
-        private readonly IDataSourceService _dataSourceService;
-        private readonly IDataProviderService _dataProviderService;
+        private readonly IDataSourceService _sourceService;
+        private readonly IDataProviderService _providerService;
 
-        public DataSourcesController(IDataSourceService dataSourceService, IDataProviderService dataProviderService)
+        public DataSourcesController(IDataSourceService sourceService, IDataProviderService providerService)
         {
-            _dataSourceService = dataSourceService;
-            _dataProviderService = dataProviderService;
+            _sourceService = sourceService;
+            _providerService = providerService;
         }
 
         // GET: DataSourcesController
         public ActionResult Index()
         {
-            var dataSources = _dataSourceService.Get();
+            var dataSources = _sourceService.Get();
             var model = dataSources.Select(i => new DataSourceViewModel
             {
                 Id = i.Id,
@@ -35,10 +35,10 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: DataSourcesController/Attributes/5
         public ActionResult Attributes(int sourceId)
         {
-            var source = _dataSourceService.Get(sourceId);
-            var provider = _dataProviderService.Get(source.ProviderId);
+            var source = _sourceService.Get(sourceId);
+            var provider = _providerService.Get(source.ProviderId);
 
-            var models = provider.DataSourceAttributes.Select(i => new AttributeViewModel
+            var models = provider.SourceAttributes.Select(i => new AttributeViewModel
             {
                 Id = i.Id,
                 Name = i.Name,
@@ -59,7 +59,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             {
                 foreach (var item in models)
                 {
-                    _dataSourceService.SaveSourceAttribute(item.Id, sourceId, providerId, item.Value);
+                    _sourceService.SaveSourceAttribute(item.Id, sourceId, providerId, item.Value ?? string.Empty);
                 }
 
                 return RedirectToAction(nameof(Index));
@@ -90,7 +90,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
                     ProviderId = model.ProviderId
                 };
 
-                _dataSourceService.Add(dataSource);
+                _sourceService.Add(dataSource);
 
                 return RedirectToAction(nameof(Index));
             }

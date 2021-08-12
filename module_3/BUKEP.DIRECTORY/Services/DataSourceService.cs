@@ -32,10 +32,10 @@ namespace BUKEP.DIRECTORY
                 Description = i.Description,
                 ProviderId = i.DataProviderId,
                 Attributes = valueEntities
-                    .Where(a => a.DataSourceId == i.Id && a.ProviderId == i.DataProviderId).ToList()
-                    .Select(a =>
+                    .Where(v => v.DataSourceId == i.Id && v.ProviderId == i.DataProviderId).ToList()
+                    .Select(v =>
                     {
-                        var attribute = attributes.FirstOrDefault(x => x.Id == a.AttributeId);
+                        var attribute = attributes.FirstOrDefault(x => x.Id == v.AttributeId);
                         if (attribute != null)
                         {
                             return new Attribute
@@ -43,7 +43,7 @@ namespace BUKEP.DIRECTORY
                                 Id = attribute.Id,
                                 Name = attribute.Name,
                                 Description = attribute.Description,
-                                Value = a.Value
+                                Value = v.Value
                             };
                         }
                         return null;

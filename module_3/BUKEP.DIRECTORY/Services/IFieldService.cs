@@ -5,6 +5,18 @@ namespace BUKEP.DIRECTORY
     public interface IFieldService
     {
         /// <summary>
+        /// Получить все поля
+        /// </summary>
+        /// <returns></returns>
+        IEnumerable<Field> Get();
+
+        /// <summary>
+        /// Получить поле по идентификатору
+        /// </summary>
+        /// <param name="id">Идентификатор поля</param>
+        Field Get(int id);
+
+        /// <summary>
         /// Получить поля по идентификатору источника
         /// </summary>
         /// <param name="sourceId">Идентификатор источника</param>

@@ -37,7 +37,7 @@ namespace BUKEP.DIRECTORY
             foreach (var provider in providers)
             {
                 provider.FieldAttributes = attributes.Where(i => fieldAttributeEntities.Where(x => x.ProviderId == provider.Id).Select(x => x.AttributeId).Contains(i.Id)).ToList();
-                provider.DataSourceAttributes = attributes.Where(i => sourceAttributeEntities.Where(x => x.ProviderId == provider.Id).Select(x => x.AttributeId).Contains(i.Id)).ToList();
+                provider.SourceAttributes = attributes.Where(i => sourceAttributeEntities.Where(x => x.ProviderId == provider.Id).Select(x => x.AttributeId).Contains(i.Id)).ToList();
             }
 
             return providers;

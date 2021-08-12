@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace BUKEP.DIRECTORY.Admin.Controllers
 {
@@ -27,7 +26,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             {
                 Id = i.Id,
                 Name = i.Name,
-                DataSourceAttributes = i.DataSourceAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description }).ToList(),
+                DataSourceAttributes = i.SourceAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description }).ToList(),
                 FieldAttributes = i.FieldAttributes.Select(x => new AttributeViewModel { Id = x.Id, Name = x.Name, Description = x.Description }).ToList(),
             });
 
@@ -118,7 +117,7 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             switch (attributeType)
             {
                 case AttributeType.DataSource:
-                    availableAttributes = attributes.Where(i => !provider.DataSourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
+                    availableAttributes = attributes.Where(i => !provider.SourceAttributes.Select(x => x.Id).Contains(i.Id)).ToList();
                     break;
                 case AttributeType.Field:
                     availableAttributes = attributes.Where(i => !provider.FieldAttributes.Select(x => x.Id).Contains(i.Id)).ToList();

@@ -7,29 +7,63 @@ namespace BUKEP.DIRECTORY
 {
     public class FieldService : IFieldService
     {
+        private readonly IAttributeService _attributeService;
         private readonly IDbRepository<FieldEntity> _fieldRepo;
         private readonly IDbRepository<FieldAttributeValueEntity> _fieldAttributeRepo;
 
-        public FieldService(IDbRepository<FieldEntity> fieldRepo, IDbRepository<FieldAttributeValueEntity> fieldAttributeRepo)
+        public FieldService(IDbRepository<FieldEntity> fieldRepo, IDbRepository<FieldAttributeValueEntity> fieldAttributeRepo, IAttributeService attributeService)
         {
             _fieldRepo = fieldRepo;
             _fieldAttributeRepo = fieldAttributeRepo;
+            _attributeService = attributeService;
         }
 
         /// <inheritdoc/>
-        public IEnumerable<Field> GetBySourceId(int sourceId)
+        public IEnumerable<Field> Get()
         {
-            var entities = _fieldRepo.Table.Where(i => i.DataSourceId == sourceId).ToList();
+            var attributes = _attributeService.Get();
+            var entities = _fieldRepo.Table.ToList();
+            var valueEntities = _fieldAttributeRepo.Table.ToList();
 
             var fields = entities.Select(i => new Field()
             {
                 Id = i.Id,
                 Name = i.Name,
-                DataSourceId = i.DataSourceId,
-                DataType = (DataType)i.DataTypeId
+                SourceId = i.DataSourceId,
+                DataType = (DataType)i.DataTypeId,
+                Attributes = valueEntities
+                    .Where(v => v.FieldId == i.Id).ToList()
+                    .Select(v =>
+                    {
+                        var attribute = attributes.FirstOrDefault(x => x.Id == v.AttributeId);
+                        if (attribute != null)
+                        {
+                            return new Attribute
+                            {
+                                Id = attribute.Id,
+                                Name = attribute.Name,
+                                Description = attribute.Description,
+                                Value = v.Value
+                            };
+                        }
+                        return null;
+                    })
+                    .Where(a => a != null).ToList()
             });
 
             return fields.ToList();
+        }
+
+        /// <inheritdoc/>
+        public Field Get(int id)
+        {
+            return Get().FirstOrDefault(i => i.Id == id);
+        }
+
+        /// <inheritdoc/>
+        public IEnumerable<Field> GetBySourceId(int sourceId)
+        {
+            return Get().Where(i => i.SourceId == sourceId).ToList();
         }
 
         /// <inheritdoc/>
@@ -38,7 +72,7 @@ namespace BUKEP.DIRECTORY
             var entity = new FieldEntity
             {
                 Name = field.Name,
-                DataSourceId = field.DataSourceId,
+                DataSourceId = field.SourceId,
                 DataTypeId = (int)field.DataType
             };
 
