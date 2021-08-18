@@ -12,11 +12,13 @@ namespace BUKEP.DIRECTORY.WebAPI.Controllers
     [ApiController]
     public class DirectoryDataController : ControllerBase
     {
+        private readonly IDirectoryService _directoryService;
         private readonly ILogger<DirectoryDataController> _logger;
 
-        public DirectoryDataController(ILogger<DirectoryDataController> logger)
+        public DirectoryDataController(ILogger<DirectoryDataController> logger, IDirectoryService directoryService)
         {
             _logger = logger;
+            _directoryService = directoryService;
         }
 
         [HttpGet]
@@ -44,8 +46,7 @@ namespace BUKEP.DIRECTORY.WebAPI.Controllers
         [Route("Add")]
         public DataRowViewModel Add(int directoryNumber, DataRowViewModel dataRow)
         {
-            // Получать из БД по id
-            var directory = new Directory() { Id = directoryNumber };
+            var directory = _directoryService.Get(directoryNumber);
             // Строить на основе провайдера
             IDirectoryDataGateway dataGateway = new InMemoryDirectoryDataGateway(directory);
             // Преобразовывать мапером

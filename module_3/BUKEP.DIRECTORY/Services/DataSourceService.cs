@@ -7,20 +7,24 @@ namespace BUKEP.DIRECTORY
 {
     public class DataSourceService : IDataSourceService
     {
+        private readonly IFieldService _fieldService;
         private readonly IAttributeService _attributeService;
         private readonly IDbRepository<DataSourceEntity> _sourceRepo;
         private readonly IDbRepository<DataSourceAttributeValueEntity> _sourceAttributeRepo;
 
-        public DataSourceService(IDbRepository<DataSourceEntity> sourceRepo, IDbRepository<DataSourceAttributeValueEntity> sourceAttributeRepo, IAttributeService attributeService)
+        public DataSourceService(IDbRepository<DataSourceEntity> sourceRepo, IDbRepository<DataSourceAttributeValueEntity> sourceAttributeRepo,
+            IAttributeService attributeService, IFieldService fieldService)
         {
             _sourceRepo = sourceRepo;
             _sourceAttributeRepo = sourceAttributeRepo;
             _attributeService = attributeService;
+            _fieldService = fieldService;
         }
 
         /// <inheritdoc/>
         public IEnumerable<DataSource> Get()
         {
+            var fields = _fieldService.Get();
             var attributes = _attributeService.Get();
             var sourceEntities = _sourceRepo.Table.ToList();
             var valueEntities = _sourceAttributeRepo.Table.ToList();
@@ -48,7 +52,8 @@ namespace BUKEP.DIRECTORY
                         }
                         return null;
                     })
-                    .Where(a => a != null).ToList()
+                    .Where(a => a != null).ToList(),
+                Fields = fields.Where(f => f.SourceId == i.Id).ToList()
             }).ToList();
 
             return dataSources;

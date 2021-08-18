@@ -31,12 +31,14 @@ namespace BUKEP.DIRECTORY.Admin
             services.AddScoped<IDbRepository<FieldAttributeEntity>, EfRepository<DirectoryDbContext, FieldAttributeEntity>>();
             services.AddScoped<IDbRepository<DataProviderEntity>, EfRepository<DirectoryDbContext, DataProviderEntity>>();
             services.AddScoped<IDbRepository<DataSourceEntity>, EfRepository<DirectoryDbContext, DataSourceEntity>>();
+            services.AddScoped<IDbRepository<DirectoryEntity>, EfRepository<DirectoryDbContext, DirectoryEntity>>();
             services.AddScoped<IDbRepository<AttributeEntity>, EfRepository<DirectoryDbContext, AttributeEntity>>();
             services.AddScoped<IDbRepository<FieldEntity>, EfRepository<DirectoryDbContext, FieldEntity>>();
 
             // Register services
             services.AddScoped<IDataProviderService, DataProviderService>();
             services.AddScoped<IDataSourceService, DataSourceService>();
+            services.AddScoped<IDirectoryService, DirectoryService>();
             services.AddScoped<IAttributeService, AttributeService>();
             services.AddScoped<IFieldService, FieldService>();
 
@@ -52,7 +54,7 @@ namespace BUKEP.DIRECTORY.Admin
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Directory/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
@@ -67,7 +69,7 @@ namespace BUKEP.DIRECTORY.Admin
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Directory}/{action=Index}/{id?}");
             });
         }
     }

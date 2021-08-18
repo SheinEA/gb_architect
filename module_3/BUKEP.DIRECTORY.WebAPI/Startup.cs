@@ -1,16 +1,12 @@
+using BUKEP.DATA.Db;
+using BUKEP.DIRECTORY.Db;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BUKEP.DIRECTORY.WebAPI
 {
@@ -26,6 +22,26 @@ namespace BUKEP.DIRECTORY.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<DirectoryDbContext>(option => option.UseSqlServer(connectionString));
+
+            // Register repositories
+            services.AddScoped<IDbRepository<DataSourceAttributeValueEntity>, EfRepository<DirectoryDbContext, DataSourceAttributeValueEntity>>();
+            services.AddScoped<IDbRepository<DataSourceAttribteEntity>, EfRepository<DirectoryDbContext, DataSourceAttribteEntity>>();
+            services.AddScoped<IDbRepository<FieldAttributeValueEntity>, EfRepository<DirectoryDbContext, FieldAttributeValueEntity>>();
+            services.AddScoped<IDbRepository<FieldAttributeEntity>, EfRepository<DirectoryDbContext, FieldAttributeEntity>>();
+            services.AddScoped<IDbRepository<DataProviderEntity>, EfRepository<DirectoryDbContext, DataProviderEntity>>();
+            services.AddScoped<IDbRepository<DataSourceEntity>, EfRepository<DirectoryDbContext, DataSourceEntity>>();
+            services.AddScoped<IDbRepository<DirectoryEntity>, EfRepository<DirectoryDbContext, DirectoryEntity>>();
+            services.AddScoped<IDbRepository<AttributeEntity>, EfRepository<DirectoryDbContext, AttributeEntity>>();
+            services.AddScoped<IDbRepository<FieldEntity>, EfRepository<DirectoryDbContext, FieldEntity>>();
+
+            // Register services
+            services.AddScoped<IDataProviderService, DataProviderService>();
+            services.AddScoped<IDataSourceService, DataSourceService>();
+            services.AddScoped<IDirectoryService, DirectoryService>();
+            services.AddScoped<IAttributeService, AttributeService>();
+            services.AddScoped<IFieldService, FieldService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

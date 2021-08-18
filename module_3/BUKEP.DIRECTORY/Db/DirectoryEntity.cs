@@ -1,13 +1,13 @@
 ﻿namespace BUKEP.DIRECTORY.Db
 {
-    internal class DirectoryEntity
+    public class DirectoryEntity
     {
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string Title { get; set; }
 
         public int DataSourceId { get; set; }
 
-        public int AccessObjectId { get; set; }
+        public long AccessObjectId { get; set; }
     }
 }

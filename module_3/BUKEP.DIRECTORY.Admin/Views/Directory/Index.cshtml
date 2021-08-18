@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DirectoryViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Справочники</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Новый справочник</a>
+    <a class="btn btn-primary" asp-controller="DataSources" asp-action="Index">Источники данных</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessObjectId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SourceName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessObjectId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SourceName)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
