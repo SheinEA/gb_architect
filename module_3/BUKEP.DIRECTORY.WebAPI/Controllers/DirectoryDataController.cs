@@ -47,6 +47,7 @@ namespace BUKEP.DIRECTORY.WebAPI.Controllers
         public DataRowViewModel Add(int directoryNumber, DataRowViewModel dataRow)
         {
             var directory = _directoryService.Get(directoryNumber);
+
             // Строить на основе провайдера
             IDirectoryDataGateway dataGateway = new InMemoryDirectoryDataGateway(directory);
             // Преобразовывать мапером
