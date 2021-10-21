@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T12:57:35.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="M6H1i9DwJY0CmAXZ-PiZ" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T12:58:45.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="fxNmuRUk-G5rHkJF2SHP" version="15.3.8" type="github">
   <diagram id="bcwrEAESlkGRVQQh_jz-" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -164,7 +164,7 @@
             <mxPoint x="620" y="629" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8d6kVLSNk_aDt6uEpF-H-43" value="Cache memory?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="8d6kVLSNk_aDt6uEpF-H-43" value="Cache memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="760" y="720" width="80" height="59" as="geometry" />
         </mxCell>
         <mxCell id="8d6kVLSNk_aDt6uEpF-H-51" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=40.5;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;" parent="1" source="8d6kVLSNk_aDt6uEpF-H-48" target="sAg5Au95LP5GGFO7PiRF-25" edge="1">
