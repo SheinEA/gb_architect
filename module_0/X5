@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T08:08:14.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="qI4bmYNS4b2b81ELMpi0" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T08:13:08.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="DPLRHX1V87A7jknuonio" version="15.3.8" type="github">
   <diagram id="bcwrEAESlkGRVQQh_jz-" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
         <mxCell id="Cswmmv03MBZzsFHBs8zQ-33" value="&lt;span style=&quot;font-size: 11px&quot;&gt;HTTP (Json)&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;" edge="1" parent="1" source="8d6kVLSNk_aDt6uEpF-H-84" target="Cswmmv03MBZzsFHBs8zQ-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8d6kVLSNk_aDt6uEpF-H-84" value="API-шлюз (.net core or NodeJs or other).&lt;br&gt;&amp;nbsp;BFF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;horizontal=0;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="8d6kVLSNk_aDt6uEpF-H-84" value="API-шлюз (.net core or NodeJs or other).&lt;br&gt;&amp;nbsp;BFF (Mobile, Public)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;horizontal=0;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="376" y="1160" width="50" height="150" as="geometry" />
         </mxCell>
         <mxCell id="8d6kVLSNk_aDt6uEpF-H-86" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -344,7 +344,7 @@
         <mxCell id="Cswmmv03MBZzsFHBs8zQ-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8d6kVLSNk_aDt6uEpF-H-99" target="8d6kVLSNk_aDt6uEpF-H-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8d6kVLSNk_aDt6uEpF-H-99" value="&lt;span&gt;Other Apps, Services&lt;/span&gt;&lt;br&gt;&lt;span&gt;PI,&amp;nbsp;Asco, Dtc and etc.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="8d6kVLSNk_aDt6uEpF-H-99" value="&lt;span&gt;Other External Apps, Services&lt;/span&gt;&lt;br&gt;&lt;span&gt;Asco, Dtc and etc.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="1320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8d6kVLSNk_aDt6uEpF-H-104" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
