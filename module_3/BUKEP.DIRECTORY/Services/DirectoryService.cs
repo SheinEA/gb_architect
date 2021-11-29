@@ -39,6 +39,12 @@ namespace BUKEP.DIRECTORY
         }
 
         /// <inheritdoc/>
+        public void Delete(int id)
+        {
+            _directoryRepo.Remove(i => i.Id == id);
+        }
+
+        /// <inheritdoc/>
         public IEnumerable<Directory> Get()
         {
             var sources = _sourceService.Get();

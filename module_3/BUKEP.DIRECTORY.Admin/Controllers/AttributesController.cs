@@ -55,21 +55,34 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: AttributesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var attribute = _attributeService.Get(id);
+            var model = new AttributeViewModel
+            {
+                Id = attribute.Id,
+                Name = attribute.Name,
+                Description = attribute.Description
+            };
+
+            return View(model);
         }
 
         // POST: AttributesController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, AttributeViewModel attribute)
         {
             try
             {
+                _attributeService.Update(new Attribute { 
+                    Id = id,
+                    Name = attribute.Name,
+                    Description = attribute.Description
+                });
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                return View("Edit", id);
             }
         }
 

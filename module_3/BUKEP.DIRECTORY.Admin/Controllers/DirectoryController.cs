@@ -1,5 +1,6 @@
 ﻿using BUKEP.DIRECTORY.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using System.Linq;
@@ -9,13 +10,11 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
     public class DirectoryController : Controller
     {
         private readonly IDirectoryService _directoryService;
+        private readonly IDataSourceService _dataSourceService;
         private readonly ILogger<DirectoryController> _logger;
 
-        public DirectoryController(ILogger<DirectoryController> logger, IDirectoryService directoryService)
-        {
-            _logger = logger;
-            _directoryService = directoryService;
-        }
+        public DirectoryController(ILogger<DirectoryController> logger, IDirectoryService directoryService, IDataSourceService dataSourceService) =>
+            (_logger, _directoryService, _dataSourceService) = (logger, directoryService, dataSourceService);
 
         public IActionResult Index()
         {
@@ -42,6 +41,13 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
         // GET: DirectoryController/Create
         public ActionResult Create()
         {
+            var sources = _dataSourceService.Get();
+            ViewBag.DataSources = sources.Select(i =>
+            new SelectListItem
+            {
+                Value = i.Id.ToString(),
+                Text = i.Description
+            });
             return View();
         }
 
@@ -57,9 +63,24 @@ namespace BUKEP.DIRECTORY.Admin.Controllers
             }
             catch
             {
-                return View();
+                return RedirectToAction(nameof(Create));
             }
         }
 
+        // POST: FieldsController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id)
+        {
+            try
+            {
+                _directoryService.Delete(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View("Index");
+            }
+        }
     }
 }

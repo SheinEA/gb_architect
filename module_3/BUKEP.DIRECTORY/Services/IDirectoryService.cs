@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace BUKEP.DIRECTORY
 {
@@ -27,5 +25,11 @@ namespace BUKEP.DIRECTORY
         /// <param name="accessObjectId">Объект доступа</param>
         /// <returns></returns>
         Directory Add(string title, int sourceId, long accessObjectId);
+
+        /// <summary>
+        /// Удалить справочник
+        /// </summary>
+        /// <param name="id">Идентификатор данных</param>
+        void Delete(int id);
     }
 }

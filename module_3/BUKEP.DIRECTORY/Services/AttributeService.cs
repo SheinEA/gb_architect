@@ -53,9 +53,34 @@ namespace BUKEP.DIRECTORY
         }
 
         /// <inheritdoc/>
+        public Attribute Get(int id)
+        {
+            var entity = _attributeRepo.Get(i => i.FirstOrDefault(x => x.Id == id));
+
+            if (entity != null)
+            {
+                return new Attribute
+                {
+                    Id = entity.Id,
+                    Name = entity.Name,
+                    Description = entity.Description
+                };
+            }
+
+            return null;
+        }
+
+        /// <inheritdoc/>
         public void Update(Attribute attribute)
         {
-            throw new NotImplementedException();
+            var entity = new AttributeEntity
+            {
+                Id = attribute.Id,
+                Name = attribute.Name,
+                Description = attribute.Description
+            };
+
+            _attributeRepo.Update(entity);
         }
     }
 }

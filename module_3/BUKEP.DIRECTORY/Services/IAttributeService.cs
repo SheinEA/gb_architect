@@ -10,6 +10,12 @@ namespace BUKEP.DIRECTORY
         IEnumerable<Attribute> Get();
 
         /// <summary>
+        /// Получить атрибуто по идентификатору
+        /// </summary>
+        /// <param name="id">Идентификатор атрибута</param>
+        Attribute Get(int id);
+
+        /// <summary>
         /// Добавить атрибут
         /// </summary>
         /// <param name="attribute">Атрибут</param>

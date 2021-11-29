@@ -1,7 +1,7 @@
 ﻿@model AttributeViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -9,10 +9,10 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             @await Html.PartialAsync("_Attribute", Model)
             <div class="form-group">
-                <input type="submit" value="Сохранить" class="btn btn-primary" />
+                <input type="submit" value="Сохранить" class="btn btn-primary"  asp-route-id="Id" />
                 <a class="btn btn-primary" asp-action="Index">Назад</a>
             </div>
         </form>
