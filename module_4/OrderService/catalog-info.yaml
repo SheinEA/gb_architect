@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: OrderService
+  annotations:
+    github.com/project-slug: SheinEA/gb_architect/tree/main/module_4/OrderService
+spec:
+  type: other
+  lifecycle: unknown
+  owner: sheinea
