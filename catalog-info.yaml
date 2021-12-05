@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gb_architect
+  annotations:
+    github.com/project-slug: SheinEA/gb_architect
+spec:
+  type: other
+  lifecycle: unknown
+  owner: shein
