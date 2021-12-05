@@ -1,0 +1,24 @@
+
+docker run -d --name postgres --network=my_kong_network -p 5432:5432 -e "POSTGRES_USER=kong" -e "POSTGRES_DB=kong" -e "POSTGRES_PASSWORD=admin" postgres:9.6
+
+docker run --rm --network=my_kong_network -e "KONG_DATABASE=postgres" -e "KONG_PG_HOST=postgres" -e "KONG_PG_PASSWORD=admin" -e "KONG_PASSWORD=admin" kong-gateway kong migrations bootstrap
+
+docker run -d --name kong --network=my_kong_network -e "KONG_DATABASE=postgres" -e "KONG_PG_HOST=postgres" -e "KONG_PG_USER=kong" -e "KONG_PG_PASSWORD=admin" -e "KONG_PROXY_ACCESS_LOG=/dev/stdout" -e "KONG_ADMIN_ACCESS_LOG=/dev/stdout" -e "KONG_PROXY_ERROR_LOG=/dev/stderr" -e "KONG_ADMIN_ERROR_LOG=/dev/stderr" -e "KONG_ADMIN_LISTEN=0.0.0.0:8001" -e "KONG_ADMIN_GUI_URL=http://0.0.0.0:8002" -p 8000:8000 -p 8443:8443 -p 8001:8001 -p 8444:8444 -p 8002:8002 -p 8445:8445 -p 8003:8003 -p 8004:8004 kong-gateway
+
+curl -i -X POST http://localhost:8001/services --data name=order --data protocol=http --data host=localhost --data port=5000 --data path=/Order
+
+
+curl -i -X POST http://localhost:8001/services/order/routes --data name=order --data protocols=http --data methods=GET --data hosts[]=localhost --data paths[]=/Order
+
+curl -i -X DELETE http://localhost:8001/routes/order_route
+curl -i -X DELETE http://localhost:8001/services/order_service
+
+
+curl -i -X POST http://localhost:8001/services --data name=order_service --data url=http://172.18.0.4:5000/Order
+curl -i -X POST http://localhost:8001/services/order_service/routes --data paths[]=/Order --data name=order_route
+
+curl -i -X POST http://localhost:8001/services --data name=customer_service --data url=http://172.18.0.5:5001/Customer
+curl -i -X POST http://localhost:8001/services/customer_service/routes --data paths[]=/Customer --data name=customer_route
+
+docker run --rm -d --name order -p 5000:5000/tcp --network=my_kong_network orderservice:latest
+docker run --rm -d --name customer -p 5001:5001/tcp --network=my_kong_network customerservice:latest
