@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: gb_architect
+  name: CustomerService
   annotations:
-    github.com/project-slug: SheinEA/gb_architect
+    github.com/project-slug: SheinEA/gb_architect/tree/main/module_4/CustomerService
 spec:
   type: other
   lifecycle: unknown
-  owner: shein
+  owner: sheinea
