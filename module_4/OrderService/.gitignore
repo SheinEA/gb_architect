@@ -2,3 +2,7 @@
 */obj
 *.suo
 */.vs/
+/.vscode
+/bin
+/obj
+/.vs
