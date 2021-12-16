@@ -1,6 +1,6 @@
 using System;
 
-namespace CustomerService
+namespace ICustomerService.Models
 {
     public class Customer
     {

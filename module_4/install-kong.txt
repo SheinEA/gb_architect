@@ -22,3 +22,8 @@ curl -i -X POST http://localhost:8001/services/customer_service/routes --data pa
 
 docker run --rm -d --name order -p 5000:5000/tcp --network=my_kong_network orderservice:latest
 docker run --rm -d --name customer -p 5001:5001/tcp --network=my_kong_network customerservice:latest
+
+
+docker run -d --name postgres --network=my_kong_network -p 5432:5432 -e "POSTGRES_USER=kong" -e "POSTGRES_DB=kong" -e "POSTGRES_PASSWORD=admin" postgres:9.6
+
+docker run -d --name postgres_backstage -p 5433:5432 -e "POSTGRES_USER=postgres" -e "POSTGRES_DB=backstage_plugin_catalog" -e POSTGRES_PASSWORD=postgres postgres:latest
