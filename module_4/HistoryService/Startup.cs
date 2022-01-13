@@ -1,5 +1,5 @@
-using CustomerService.Data;
-using CustomerService.Services;
+using HistoryService.Data;
+using HistoryService.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace CustomerService
+namespace HistoryService
 {
     public class Startup
     {
@@ -22,13 +22,13 @@ namespace CustomerService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CustomerContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IDataContext>(provider => provider.GetService<CustomerContext>());
-            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddDbContext<HistoryContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IDataContext>(provider => provider.GetService<HistoryContext>());
+            services.AddScoped<IHistoryRepository, HistoryRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CustomerService", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HistoryService", Version = "v1" });
             });
         }
 
@@ -37,7 +37,7 @@ namespace CustomerService
         {
             using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
-                var context = serviceScope.ServiceProvider.GetRequiredService<CustomerContext>();
+                var context = serviceScope.ServiceProvider.GetRequiredService<HistoryContext>();
                 context.Database.Migrate();
             }
 
@@ -48,7 +48,7 @@ namespace CustomerService
             }
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomerService v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HistoryService v1"));
 
 
             app.UseRouting();

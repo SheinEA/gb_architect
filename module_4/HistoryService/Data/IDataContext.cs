@@ -1,13 +1,13 @@
 using System.Threading;
 using System.Threading.Tasks;
-using CustomerService.Models;
+using HistoryService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CustomerService.Data
+namespace HistoryService.Data
 {
     public interface IDataContext
     {
-         DbSet<Customer> Customers { get; set; }
+         DbSet<History> History { get; set; }
 
          Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using ICustomerService.Models;
+using CustomerService.Models;
 
-namespace ICustomerService.Services
+namespace CustomerService.Services
 {
     public interface ICustomerRepository
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using ICustomerService.Models;
-using ICustomerService.Services;
+using CustomerService.Models;
+using CustomerService.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ICustomerService.Controllers
+namespace CustomerService.Controllers
 {
     [ApiController]
     [Route("[controller]")]

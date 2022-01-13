@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HistoryService
+  annotations:
+    github.com/project-slug: SheinEA/gb_architect/tree/main/module_4/HistoryService
+spec:
+  type: other
+  lifecycle: unknown
+  owner: sheinea

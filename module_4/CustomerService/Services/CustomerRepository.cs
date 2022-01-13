@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using ICustomerService.Data;
-using ICustomerService.Models;
+using CustomerService.Data;
+using CustomerService.Models;
 
-namespace ICustomerService.Services
+namespace CustomerService.Services
 {
     public class CustomerRepository : ICustomerRepository
     {

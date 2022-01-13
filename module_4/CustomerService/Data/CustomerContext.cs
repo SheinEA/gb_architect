@@ -1,7 +1,7 @@
-using ICustomerService.Models;
+using CustomerService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ICustomerService.Data
+namespace CustomerService.Data
 {
     public class CustomerContext : DbContext, IDataContext
     {
